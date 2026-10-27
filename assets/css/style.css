@@ -1191,7 +1191,6 @@ h6 {
 .btn__primary {
   background-color: #3c3c3e;
   color: #fff;
-  
 }
 .btn__primary:active,
 .btn__primary:focus,
@@ -3461,7 +3460,7 @@ textarea.form-control {
 }
 .carousel-dots .owl-dots .owl-dot {
   margin: 0 5px;
-  display:none;
+  display: none;
 }
 .carousel-dots .owl-dots .owl-dot span {
   position: relative;
@@ -3566,7 +3565,7 @@ textarea.form-control {
   font-weight: 500;
   color: #fff;
   margin-bottom: 123px;
-  margin-top:100px;
+  margin-top: 100px;
 }
 .slider .slide__desc {
   font-size: 17px;
@@ -3583,7 +3582,7 @@ textarea.form-control {
 }
 .slider .carousel-arrows .owl-nav .owl-next,
 .slider .carousel-arrows .owl-nav .owl-prev {
-	display:none;
+  display: none;
   color: #fff;
   border: none;
   line-height: 46px;
@@ -6558,411 +6557,1092 @@ textarea.form-control {
   }
 }
 
-
 /* Get a Free Quote Button */
 .quote-button,
 .quote-button a {
-    display: inline-block;
-    background: #0878d1 !important;
-    color: #ffffff !important;
-    border: 2px solid #ffffff !important;
-    border-radius: 9px !important;
-    padding: 13px 23px !important;
-    font-family: Arial, Helvetica, sans-serif !important;
-    font-size: 14px !important;
-    font-weight: 700 !important;
-    line-height: 1.4 !important;
-    text-decoration: none !important;
-    text-align: center;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
-    transition: all 0.25s ease;
-    cursor: pointer;
+  display: inline-block;
+  background: #0878d1 !important;
+  color: #ffffff !important;
+  border: 2px solid #ffffff !important;
+  border-radius: 9px !important;
+  padding: 13px 23px !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 1.4 !important;
+  text-decoration: none !important;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+  transition: all 0.25s ease;
+  cursor: pointer;
 }
 
 /* Hover Effect */
 .quote-button:hover,
 .quote-button a:hover {
-    background: #005ca8 !important;
-    color: #ffffff !important;
-    border-color: #ffffff !important;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  background: #005ca8 !important;
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
-
-
 
 /* =========================================
    PV Engineering Section
 ========================================= */
 
 .pv-engineering-section {
-    background: #ffffff;
-    color: #082c64;
+  background: #ffffff;
+  color: #082c64;
 }
 
 .pv-engineering-title {
-    margin-bottom: 8px;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.3;
-    color: #777777;
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #777777;
 }
 
 .pv-engineering-title span {
-    color: #0876c9;
-    font-weight: 700;
+  color: #0876c9;
+  font-weight: 700;
 }
 
 .pv-engineering-desc {
-    margin-bottom: 10px;
-    font-size: 15px;
-    line-height: 1.5;
-    color: #092c68;
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #092c68;
 }
 
 .pv-engineering-divider {
-    width: 85px;
-    height: 4px;
-    margin: 0;
-    background: #1599ed;
+  width: 85px;
+  height: 4px;
+  margin: 0;
+  background: #1599ed;
 }
 
 /* Support and Deliverables Cards */
 
 .pv-engineering-card {
-    height: 100%;
-    margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 .pv-engineering-card h4 {
-    margin: 0;
-    padding: 10px 14px;
-    background: #0865c5;
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 1.4;
+  margin: 0;
+  padding: 10px 14px;
+  background: #0865c5;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .pv-engineering-card-content {
-    min-height: 112px;
-    padding: 8px 10px;
-    background: #c8e1f8;
-    color: #082c64;
+  min-height: 112px;
+  padding: 8px 10px;
+  background: #c8e1f8;
+  color: #082c64;
 }
 
 .pv-engineering-card-content ul {
-    list-style-type: disc !important;
-    padding-left: 20px;
-    margin: 0;
+  list-style-type: disc !important;
+  padding-left: 20px;
+  margin: 0;
 }
 
 .pv-engineering-card-content li {
-    display: list-item;
-    list-style-type: disc !important;
-    margin-bottom: 2px;
-    padding-left: 0;
+  display: list-item;
+  list-style-type: disc !important;
+  margin-bottom: 2px;
+  padding-left: 0;
 }
 
 /* Our Focus */
 
 .pv-engineering-focus-title {
-    margin: 0 0 8px;
-    color: #082c64;
-    font-size: 14px;
-    font-weight: 500;
+  margin: 0 0 8px;
+  color: #082c64;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .pv-engineering-focus-row {
-    row-gap: 0;
+  row-gap: 0;
 }
 
 .pv-engineering-focus-item {
-    display: flex;
-    min-height: 62px;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 8px;
-    background: #0865c5;
-    color: #ffffff;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 1.4;
+  display: flex;
+  min-height: 62px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 8px;
+  background: #0865c5;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 /* Bottom Information Banner */
 
 .pv-engineering-footer {
-    margin-top: 12px;
-    padding: 9px 13px;
-    background: #0865c5;
-    color: #ffffff;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 1.5;
+  margin-top: 12px;
+  padding: 9px 13px;
+  background: #0865c5;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 /* Tablet */
 
 @media (max-width: 767px) {
-    .pv-engineering-title {
-        font-size: 19px;
-    }
+  .pv-engineering-title {
+    font-size: 19px;
+  }
 
-    .pv-engineering-focus-item {
-        min-height: 58px;
-        font-size: 12px;
-    }
+  .pv-engineering-focus-item {
+    min-height: 58px;
+    font-size: 12px;
+  }
 }
 
 /* Mobile */
 
 @media (max-width: 575px) {
-    .pv-engineering-section {
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
+  .pv-engineering-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 
-    .pv-engineering-card-content {
-        min-height: auto;
-    }
+  .pv-engineering-card-content {
+    min-height: auto;
+  }
 
-    .pv-engineering-card h4 {
-        font-size: 14px;
-    }
+  .pv-engineering-card h4 {
+    font-size: 14px;
+  }
 
-    .pv-engineering-card-content li {
-        font-size: 12px;
-    }
+  .pv-engineering-card-content li {
+    font-size: 12px;
+  }
 
-    .pv-engineering-focus-item {
-        padding: 10px 5px;
-        font-size: 11px;
-    }
+  .pv-engineering-focus-item {
+    padding: 10px 5px;
+    font-size: 11px;
+  }
 
-    .pv-engineering-footer {
-        font-size: 12px;
-    }
+  .pv-engineering-footer {
+    font-size: 12px;
+  }
 }
-
 
 /* =========================================
    Engineering Capabilities Section
 ========================================= */
 
 .engineering-capabilities {
-    background: #ffffff;
+  background: #ffffff;
 }
 
 .capabilities-title {
-    margin-bottom: 8px;
-    color: #0758b5;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 1.3;
+  margin-bottom: 8px;
+  color: #0758b5;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.3;
 }
 
 .capabilities-divider {
-    width: 85px;
-    height: 4px;
-    margin: 0;
-    background: #1599ed;
+  width: 85px;
+  height: 4px;
+  margin: 0;
+  background: #1599ed;
 }
 
 /* Capability Cards */
 
 .capability-card {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    min-height: 168px;
-    padding: 12px 14px 10px;
-    background: #c8e1f8;
-    border-top: 7px solid #0758b5;
-    color: #073d83;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 168px;
+  padding: 12px 14px 10px;
+  background: #c8e1f8;
+  border-top: 7px solid #0758b5;
+  color: #073d83;
 }
 
 .capability-card.capability-blue {
-    border-top-color: #0758b5;
+  border-top-color: #0758b5;
 }
 
 .capability-card.capability-teal {
-    border-top-color: #087f7d;
+  border-top-color: #087f7d;
 }
 
 .capability-card h3 {
-    margin: 0 0 8px;
-    color: #0758b5;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.4;
+  margin: 0 0 8px;
+  color: #0758b5;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .capability-card.capability-teal h3 {
-    color: #087f7d;
+  color: #087f7d;
 }
 
 .capability-card p {
-    margin: 0 0 10px;
-    color: #082c64;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 1.3;
+  margin: 0 0 10px;
+  color: #082c64;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.3;
 }
 
 /* Bottom White Label */
 
 .capability-label {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 26px;
-    margin-top: auto;
-    padding: 5px 6px;
-    background: #ffffff;
-    color: #0758b5;
-    text-align: center;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 1.3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 26px;
+  margin-top: auto;
+  padding: 5px 6px;
+  background: #ffffff;
+  color: #0758b5;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.3;
 }
 
 /* Tablet */
 
 @media (max-width: 991px) {
-    .capability-card {
-        min-height: 180px;
-    }
+  .capability-card {
+    min-height: 180px;
+  }
 
-    .capability-card h3 {
-        font-size: 14px;
-    }
+  .capability-card h3 {
+    font-size: 14px;
+  }
 }
 
 /* Mobile */
 
 @media (max-width: 575px) {
-    .engineering-capabilities {
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
+  .engineering-capabilities {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 
-    .capabilities-title {
-        font-size: 20px;
-    }
+  .capabilities-title {
+    font-size: 20px;
+  }
 
-    .capability-card {
-        min-height: 0;
-        padding: 12px;
-    }
+  .capability-card {
+    min-height: 0;
+    padding: 12px;
+  }
 
-    .capability-card h3 {
-        font-size: 15px;
-    }
+  .capability-card h3 {
+    font-size: 15px;
+  }
 
-    .capability-card p {
-        font-size: 13px;
-        line-height: 1.5;
-    }
+  .capability-card p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
 
-    .capability-label {
-        font-size: 12px;
-    }
+  .capability-label {
+    font-size: 12px;
+  }
 }
 
-
-
 /* PVEng engineering section redesign */
-#pvEngineering.pv-engineering-section{position:relative;isolation:isolate;overflow:hidden;padding:42px 0 36px!important;background:#f7fbff url('../images/pv-engineering/pv-engineering-bg.jpg') center center/cover no-repeat;color:#092d69}
-#pvEngineering.pv-engineering-section:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.86) 0%,rgba(255,255,255,.76) 55%,rgba(255,255,255,.48) 100%);z-index:-1}
-#pvEngineering .container{position:relative;z-index:1}
-#pvEngineering .pv-engineering-title{font-size:clamp(28px,3vw,42px);font-weight:800;letter-spacing:-.7px;line-height:1.15;color:#586173;margin-bottom:12px}
-#pvEngineering .pv-engineering-title span{color:#0874cf}
-#pvEngineering .pv-engineering-desc{font-size:16px;line-height:1.65;color:#102f68;max-width:1100px;margin-bottom:20px}
-#pvEngineering .pv-engineering-card{border:1px solid rgba(255,255,255,.9);border-radius:13px;overflow:hidden;box-shadow:0 10px 28px rgba(19,87,156,.12);background:rgba(255,255,255,.82);transition:transform .25s ease,box-shadow .25s ease}
-#pvEngineering .pv-engineering-card:hover{transform:translateY(-3px);box-shadow:0 16px 34px rgba(19,87,156,.18)}
-#pvEngineering .pv-engineering-card h4{display:flex;align-items:center;gap:15px;padding:15px 20px;background:linear-gradient(110deg,#0755b4,#078bdf);font-size:20px;line-height:1.25;color:#fff}
-#pvEngineering .pv-card-icon{width:50px;height:50px;object-fit:contain;flex:0 0 50px}
-#pvEngineering .pv-engineering-card-content{min-height:0;padding:14px 24px 15px;background:rgba(238,247,255,.91);color:#102f68}
-#pvEngineering .pv-engineering-card-content ul{padding-left:20px}
-#pvEngineering .pv-engineering-card-content li{font-size:16px;line-height:1.6;margin-bottom:3px;padding-left:3px}
-#pvEngineering .pv-engineering-card-content li::marker{color:#0968c6}
-#pvEngineering .pv-engineering-focus-title{display:flex;align-items:center;gap:14px;font-size:17px;font-weight:800;letter-spacing:.25px;margin:2px 0 12px;color:#092d69}
-#pvEngineering .pv-engineering-focus-title:after{content:"";height:3px;width:70px;background:linear-gradient(90deg,#0755b4,#08a0ee);border-radius:5px}
-#pvEngineering .pv-engineering-focus-row{margin-left:-7px;margin-right:-7px}
-#pvEngineering .pv-engineering-focus-row>[class*="col-"]{padding-left:7px;padding-right:7px}
-#pvEngineering .pv-engineering-focus-item{display:flex;align-items:center;justify-content:flex-start;gap:14px;min-height:82px;padding:10px 14px;background:rgba(255,255,255,.91);border:1px solid #d7e8fb;border-radius:12px;box-shadow:0 7px 18px rgba(22,92,160,.08);color:#092d69;text-align:left;font-size:16px;font-weight:700;line-height:1.35;transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease}
-#pvEngineering .pv-engineering-focus-item:hover{transform:translateY(-3px);border-color:#8ec7f5;box-shadow:0 12px 24px rgba(22,92,160,.14)}
-#pvEngineering .pv-engineering-focus-item img{width:62px;height:62px;object-fit:contain;flex:0 0 62px}
-#pvEngineering .pv-engineering-focus-item span{display:block}
-#pvEngineering .pv-engineering-footer{display:flex;align-items:center;gap:17px;margin-top:14px;padding:14px 20px;border-radius:12px;background:linear-gradient(105deg,#0755b4,#078cdd);box-shadow:0 10px 24px rgba(5,82,171,.18);color:#fff;font-size:15px;line-height:1.55;font-weight:500}
-#pvEngineering .pv-engineering-footer img{width:34px;height:40px;object-fit:contain;flex:0 0 34px;padding-right:13px;border-right:2px solid rgba(255,255,255,.7);box-sizing:content-box}
-@media(max-width:991px){#pvEngineering.pv-engineering-section{padding:34px 0!important}#pvEngineering .pv-engineering-card h4{font-size:18px}#pvEngineering .pv-engineering-focus-item{gap:9px;padding:9px;min-height:76px;font-size:14px}#pvEngineering .pv-engineering-focus-item img{width:48px;height:48px;flex-basis:48px}}
-@media(max-width:575px){#pvEngineering .pv-engineering-title{font-size:29px}#pvEngineering .pv-engineering-desc{font-size:14px}#pvEngineering .pv-engineering-card h4{font-size:16px;padding:12px 14px}#pvEngineering .pv-engineering-card-content{padding:12px 17px}#pvEngineering .pv-engineering-card-content li{font-size:14px}#pvEngineering .pv-engineering-focus-row>[class*="col-"]{margin-bottom:10px}#pvEngineering .pv-engineering-focus-item{min-height:72px;font-size:12px;gap:7px;padding:8px}#pvEngineering .pv-engineering-focus-item img{width:40px;height:40px;flex-basis:40px}#pvEngineering .pv-engineering-footer{align-items:flex-start;padding:12px;font-size:12px;gap:12px}#pvEngineering .pv-engineering-footer img{width:27px;height:34px;flex-basis:27px;padding-right:9px}}
-
+#pvEngineering.pv-engineering-section {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 42px 0 36px !important;
+  background: #f7fbff url("../images/pv-engineering/pv-engineering-bg.jpg")
+    center center/cover no-repeat;
+  color: #092d69;
+}
+#pvEngineering.pv-engineering-section:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.86) 0%,
+    rgba(255, 255, 255, 0.76) 55%,
+    rgba(255, 255, 255, 0.48) 100%
+  );
+  z-index: -1;
+}
+#pvEngineering .container {
+  position: relative;
+  z-index: 1;
+}
+#pvEngineering .pv-engineering-title {
+  font-size: clamp(28px, 3vw, 42px);
+  font-weight: 800;
+  letter-spacing: -0.7px;
+  line-height: 1.15;
+  color: #586173;
+  margin-bottom: 12px;
+}
+#pvEngineering .pv-engineering-title span {
+  color: #0874cf;
+}
+#pvEngineering .pv-engineering-desc {
+  font-size: 16px;
+  line-height: 1.65;
+  color: #102f68;
+  max-width: 1100px;
+  margin-bottom: 20px;
+}
+#pvEngineering .pv-engineering-card {
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 13px;
+  overflow: hidden;
+  box-shadow: 0 10px 28px rgba(19, 87, 156, 0.12);
+  background: rgba(255, 255, 255, 0.82);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+#pvEngineering .pv-engineering-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 34px rgba(19, 87, 156, 0.18);
+}
+#pvEngineering .pv-engineering-card h4 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 20px;
+  background: linear-gradient(110deg, #0755b4, #078bdf);
+  font-size: 20px;
+  line-height: 1.25;
+  color: #fff;
+}
+#pvEngineering .pv-card-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  flex: 0 0 50px;
+}
+#pvEngineering .pv-engineering-card-content {
+  min-height: 0;
+  padding: 14px 24px 15px;
+  background: rgba(238, 247, 255, 0.91);
+  color: #102f68;
+}
+#pvEngineering .pv-engineering-card-content ul {
+  padding-left: 20px;
+}
+#pvEngineering .pv-engineering-card-content li {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 3px;
+  padding-left: 3px;
+}
+#pvEngineering .pv-engineering-card-content li::marker {
+  color: #0968c6;
+}
+#pvEngineering .pv-engineering-focus-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 0.25px;
+  margin: 2px 0 12px;
+  color: #092d69;
+}
+#pvEngineering .pv-engineering-focus-title:after {
+  content: "";
+  height: 3px;
+  width: 70px;
+  background: linear-gradient(90deg, #0755b4, #08a0ee);
+  border-radius: 5px;
+}
+#pvEngineering .pv-engineering-focus-row {
+  margin-left: -7px;
+  margin-right: -7px;
+}
+#pvEngineering .pv-engineering-focus-row > [class*="col-"] {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+#pvEngineering .pv-engineering-focus-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px;
+  min-height: 82px;
+  padding: 10px 14px;
+  background: rgba(255, 255, 255, 0.91);
+  border: 1px solid #d7e8fb;
+  border-radius: 12px;
+  box-shadow: 0 7px 18px rgba(22, 92, 160, 0.08);
+  color: #092d69;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.35;
+  transition: transform 0.22s ease, border-color 0.22s ease,
+    box-shadow 0.22s ease;
+}
+#pvEngineering .pv-engineering-focus-item:hover {
+  transform: translateY(-3px);
+  border-color: #8ec7f5;
+  box-shadow: 0 12px 24px rgba(22, 92, 160, 0.14);
+}
+#pvEngineering .pv-engineering-focus-item img {
+  width: 62px;
+  height: 62px;
+  object-fit: contain;
+  flex: 0 0 62px;
+}
+#pvEngineering .pv-engineering-focus-item span {
+  display: block;
+}
+#pvEngineering .pv-engineering-footer {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  margin-top: 14px;
+  padding: 14px 20px;
+  border-radius: 12px;
+  background: linear-gradient(105deg, #0755b4, #078cdd);
+  box-shadow: 0 10px 24px rgba(5, 82, 171, 0.18);
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.55;
+  font-weight: 500;
+}
+#pvEngineering .pv-engineering-footer img {
+  width: 34px;
+  height: 40px;
+  object-fit: contain;
+  flex: 0 0 34px;
+  padding-right: 13px;
+  border-right: 2px solid rgba(255, 255, 255, 0.7);
+  box-sizing: content-box;
+}
+@media (max-width: 991px) {
+  #pvEngineering.pv-engineering-section {
+    padding: 34px 0 !important;
+  }
+  #pvEngineering .pv-engineering-card h4 {
+    font-size: 18px;
+  }
+  #pvEngineering .pv-engineering-focus-item {
+    gap: 9px;
+    padding: 9px;
+    min-height: 76px;
+    font-size: 14px;
+  }
+  #pvEngineering .pv-engineering-focus-item img {
+    width: 48px;
+    height: 48px;
+    flex-basis: 48px;
+  }
+}
+@media (max-width: 575px) {
+  #pvEngineering .pv-engineering-title {
+    font-size: 29px;
+  }
+  #pvEngineering .pv-engineering-desc {
+    font-size: 14px;
+  }
+  #pvEngineering .pv-engineering-card h4 {
+    font-size: 16px;
+    padding: 12px 14px;
+  }
+  #pvEngineering .pv-engineering-card-content {
+    padding: 12px 17px;
+  }
+  #pvEngineering .pv-engineering-card-content li {
+    font-size: 14px;
+  }
+  #pvEngineering .pv-engineering-focus-row > [class*="col-"] {
+    margin-bottom: 10px;
+  }
+  #pvEngineering .pv-engineering-focus-item {
+    min-height: 72px;
+    font-size: 12px;
+    gap: 7px;
+    padding: 8px;
+  }
+  #pvEngineering .pv-engineering-focus-item img {
+    width: 40px;
+    height: 40px;
+    flex-basis: 40px;
+  }
+  #pvEngineering .pv-engineering-footer {
+    align-items: flex-start;
+    padding: 12px;
+    font-size: 12px;
+    gap: 12px;
+  }
+  #pvEngineering .pv-engineering-footer img {
+    width: 27px;
+    height: 34px;
+    flex-basis: 27px;
+    padding-right: 9px;
+  }
+}
 
 /* Premium PVEng Engineering Capabilities section */
-#engineeringCapabilities.engineering-capabilities{position:relative;isolation:isolate;overflow:hidden;padding:42px 0 36px!important;background:#f7fbff url('../images/capabilities/capabilities-blueprint-bg.jpg') center center/cover no-repeat;color:#102f68}
-#engineeringCapabilities.engineering-capabilities:before{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(255,255,255,.96) 0%,rgba(255,255,255,.91) 55%,rgba(255,255,255,.74) 100%);z-index:-1}
-#engineeringCapabilities .container{position:relative;z-index:1}
-#engineeringCapabilities .capabilities-title{font-size:32px; text-align:center; font-weight:800;letter-spacing:-.7px;line-height:1.15;color:#152d55;margin:0 0 12px}
-#engineeringCapabilities .capabilities-title span{color:#0864c5}
-#engineeringCapabilities .capabilities-divider{width:112px;height:4px;margin:0 0 22px;background:linear-gradient(90deg,#ff7b18 0 40%,#087bd7 40% 100%);border-radius:5px}
-#engineeringCapabilities .capability-grid{row-gap:0}
-#engineeringCapabilities .capability-grid>div{display:flex;margin-bottom:20px}
-#engineeringCapabilities .capability-card{position:relative;display:flex;flex-direction:column;width:100%;height:100%;min-height:330px;padding:0 20px 16px;background:rgba(255,255,255,.94);border:1px solid rgba(209,229,249,.9);border-top:6px solid #0871d2;border-radius:17px;overflow:hidden;box-shadow:0 10px 28px rgba(26,91,153,.10);transition:transform .25s ease,box-shadow .25s ease}
-#engineeringCapabilities .capability-card:after{content:"";position:absolute;right:-35px;top:0;width:44%;height:174px;background:linear-gradient(125deg,rgba(222,241,255,.0),rgba(191,225,251,.35));clip-path:polygon(35% 0,100% 0,100% 100%,0 100%);pointer-events:none}
-#engineeringCapabilities .capability-card.capability-blue{border-top-color:#0871d2}
-#engineeringCapabilities .capability-card.capability-teal{border-top-color:#08a99d}
-#engineeringCapabilities .capability-card:hover{transform:translateY(-5px);box-shadow:0 18px 34px rgba(26,91,153,.17)}
-#engineeringCapabilities .capability-visual{height:138px;position:relative;display:flex;align-items:flex-start;padding-top:18px;margin:0 -20px 6px;overflow:hidden}
-#engineeringCapabilities .capability-icon{position:relative;z-index:2;width:86px;height:86px;object-fit:contain;margin-left:20px;filter:drop-shadow(0 4px 7px rgba(14,71,130,.07))}
-#engineeringCapabilities .capability-equipment{position:absolute;z-index:1;right:0;top:0;width:58%;height:138px;object-fit:cover;object-position:center;border-radius:0 0 0 48px;mask-image:linear-gradient(90deg,transparent 0%,#000 23%);}
-#engineeringCapabilities .capability-card h3{position:relative;z-index:3;margin:0 0 8px;color:#075cbd;font-size:21px;font-weight:800;line-height:1.25;letter-spacing:-.3px}
-#engineeringCapabilities .capability-card.capability-teal h3{color:#078b83}
-#engineeringCapabilities .capability-card p{position:relative;z-index:2;margin:0 0 14px;color:#20385f;font-size:14px;line-height:1.48;font-weight:400}
-#engineeringCapabilities .capability-label{position:relative;z-index:2;display:flex;align-items:center;justify-content:center;min-height:39px;margin-top:auto;padding:8px 10px;border-radius:9px;background:#e1f1ff;color:#0756b0;text-align:center;font-size:14px;font-weight:700;line-height:1.35}
-#engineeringCapabilities .capability-teal .capability-label{background:#e0f5f3;color:#056776}
-@media(max-width:1199px){#engineeringCapabilities .capability-card{min-height:350px}#engineeringCapabilities .capability-card h3{font-size:18px}#engineeringCapabilities .capability-equipment{width:55%}}
-@media(max-width:767px){#engineeringCapabilities.engineering-capabilities{padding:32px 0 22px!important}#engineeringCapabilities .capabilities-title{font-size:29px}#engineeringCapabilities .capability-grid>div{margin-bottom:16px}#engineeringCapabilities .capability-card{min-height:0;padding:0 16px 15px}#engineeringCapabilities .capability-visual{height:122px;margin:0 -16px 8px;padding-top:15px}#engineeringCapabilities .capability-icon{width:74px;height:74px;margin-left:16px}#engineeringCapabilities .capability-equipment{height:122px;width:59%}#engineeringCapabilities .capability-card h3{font-size:19px}#engineeringCapabilities .capability-card p{font-size:14px;line-height:1.5}}
-@media(prefers-reduced-motion:reduce){#engineeringCapabilities .capability-card{transition:none}}
-
+#engineeringCapabilities.engineering-capabilities {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 42px 0 36px !important;
+  background: #f7fbff
+    url("../images/capabilities/capabilities-blueprint-bg.jpg") center
+    center/cover no-repeat;
+  color: #102f68;
+}
+#engineeringCapabilities.engineering-capabilities:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    100deg,
+    rgba(255, 255, 255, 0.96) 0%,
+    rgba(255, 255, 255, 0.91) 55%,
+    rgba(255, 255, 255, 0.74) 100%
+  );
+  z-index: -1;
+}
+#engineeringCapabilities .container {
+  position: relative;
+  z-index: 1;
+}
+#engineeringCapabilities .capabilities-title {
+  font-size: 32px;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: -0.7px;
+  line-height: 1.15;
+  color: #152d55;
+  margin: 0 0 12px;
+}
+#engineeringCapabilities .capabilities-title span {
+  color: #0864c5;
+}
+#engineeringCapabilities .capabilities-divider {
+  width: 112px;
+  height: 4px;
+  margin: 0 0 22px;
+  background: linear-gradient(90deg, #ff7b18 0 40%, #087bd7 40% 100%);
+  border-radius: 5px;
+}
+#engineeringCapabilities .capability-grid {
+  row-gap: 0;
+}
+#engineeringCapabilities .capability-grid > div {
+  display: flex;
+  margin-bottom: 20px;
+}
+#engineeringCapabilities .capability-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  min-height: 330px;
+  padding: 0 20px 16px;
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid rgba(209, 229, 249, 0.9);
+  border-top: 6px solid #0871d2;
+  border-radius: 17px;
+  overflow: hidden;
+  box-shadow: 0 10px 28px rgba(26, 91, 153, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+#engineeringCapabilities .capability-card:after {
+  content: "";
+  position: absolute;
+  right: -35px;
+  top: 0;
+  width: 44%;
+  height: 174px;
+  background: linear-gradient(
+    125deg,
+    rgba(222, 241, 255, 0),
+    rgba(191, 225, 251, 0.35)
+  );
+  clip-path: polygon(35% 0, 100% 0, 100% 100%, 0 100%);
+  pointer-events: none;
+}
+#engineeringCapabilities .capability-card.capability-blue {
+  border-top-color: #0871d2;
+}
+#engineeringCapabilities .capability-card.capability-teal {
+  border-top-color: #08a99d;
+}
+#engineeringCapabilities .capability-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 34px rgba(26, 91, 153, 0.17);
+}
+#engineeringCapabilities .capability-visual {
+  height: 138px;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 18px;
+  margin: 0 -20px 6px;
+  overflow: hidden;
+}
+#engineeringCapabilities .capability-icon {
+  position: relative;
+  z-index: 2;
+  width: 86px;
+  height: 86px;
+  object-fit: contain;
+  margin-left: 20px;
+  filter: drop-shadow(0 4px 7px rgba(14, 71, 130, 0.07));
+}
+#engineeringCapabilities .capability-equipment {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 0;
+  width: 58%;
+  height: 138px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0 0 0 48px;
+  mask-image: linear-gradient(90deg, transparent 0%, #000 23%);
+}
+#engineeringCapabilities .capability-card h3 {
+  position: relative;
+  z-index: 3;
+  margin: 0 0 8px;
+  color: #075cbd;
+  font-size: 21px;
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.3px;
+}
+#engineeringCapabilities .capability-card.capability-teal h3 {
+  color: #078b83;
+}
+#engineeringCapabilities .capability-card p {
+  position: relative;
+  z-index: 2;
+  margin: 0 0 14px;
+  color: #20385f;
+  font-size: 14px;
+  line-height: 1.48;
+  font-weight: 400;
+}
+#engineeringCapabilities .capability-label {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 39px;
+  margin-top: auto;
+  padding: 8px 10px;
+  border-radius: 9px;
+  background: #e1f1ff;
+  color: #0756b0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+#engineeringCapabilities .capability-teal .capability-label {
+  background: #e0f5f3;
+  color: #056776;
+}
+@media (max-width: 1199px) {
+  #engineeringCapabilities .capability-card {
+    min-height: 350px;
+  }
+  #engineeringCapabilities .capability-card h3 {
+    font-size: 18px;
+  }
+  #engineeringCapabilities .capability-equipment {
+    width: 55%;
+  }
+}
+@media (max-width: 767px) {
+  #engineeringCapabilities.engineering-capabilities {
+    padding: 32px 0 22px !important;
+  }
+  #engineeringCapabilities .capabilities-title {
+    font-size: 29px;
+  }
+  #engineeringCapabilities .capability-grid > div {
+    margin-bottom: 16px;
+  }
+  #engineeringCapabilities .capability-card {
+    min-height: 0;
+    padding: 0 16px 15px;
+  }
+  #engineeringCapabilities .capability-visual {
+    height: 122px;
+    margin: 0 -16px 8px;
+    padding-top: 15px;
+  }
+  #engineeringCapabilities .capability-icon {
+    width: 74px;
+    height: 74px;
+    margin-left: 16px;
+  }
+  #engineeringCapabilities .capability-equipment {
+    height: 122px;
+    width: 59%;
+  }
+  #engineeringCapabilities .capability-card h3 {
+    font-size: 19px;
+  }
+  #engineeringCapabilities .capability-card p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  #engineeringCapabilities .capability-card {
+    transition: none;
+  }
+}
 
 /* Why Choose PV Eng — premium split panel and feature rows */
-#whyChoosePVEng.why-choose-pveng{position:relative;isolation:isolate;overflow:hidden;padding:48px 0;background:linear-gradient(135deg,#f3faff 0%,#ffffff 58%,#edf7ff 100%);color:#103467}
-#whyChoosePVEng:before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(27,112,190,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(27,112,190,.035) 1px,transparent 1px);background-size:34px 34px;mask-image:linear-gradient(90deg,#000,transparent 80%);z-index:-1;pointer-events:none}
-#whyChoosePVEng .why-choose-layout{display:grid;grid-template-columns:minmax(260px,.78fr) minmax(0,2fr);gap:20px;align-items:stretch}
-#whyChoosePVEng .why-choose-intro{position:relative;min-height:610px;overflow:hidden;border-radius:20px;background:linear-gradient(145deg,rgba(4,48,112,.96),rgba(0,116,207,.88)),url('../images/why-choose/industrial-panel.png') center/cover no-repeat;box-shadow:0 16px 38px rgba(6,75,143,.2)}
-#whyChoosePVEng .why-choose-intro:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,41,96,.12),rgba(0,109,199,.22)),url('../images/why-choose/industrial-panel.png') center/cover no-repeat;opacity:.52;mix-blend-mode:screen}
-#whyChoosePVEng .why-choose-intro:after{content:"";position:absolute;left:-15%;bottom:-14%;width:125%;height:34%;background:linear-gradient(120deg,rgba(0,161,255,.5),rgba(0,78,172,0));transform:skewY(-15deg)}
-#whyChoosePVEng .why-choose-intro-content{position:relative;z-index:1;padding:42px 32px;color:#fff}
-#whyChoosePVEng .why-choose-kicker{display:inline-block;margin-bottom:24px;color:#9fddff;font-size:10px;font-weight:800;letter-spacing:2px}
-#whyChoosePVEng .why-choose-intro h2{margin:0;color:#fff;font-size:clamp(34px,3vw,48px);font-weight:400;line-height:1.13;letter-spacing:-1px}
-#whyChoosePVEng .why-choose-intro h2 strong{display:inline-block;margin-top:5px;font-weight:800;font-size:1.24em;letter-spacing:-1.7px}
-#whyChoosePVEng .why-choose-intro h2 strong span{color:#19a7ff}
-#whyChoosePVEng .why-choose-accent{display:flex;gap:0;width:150px;height:5px;margin:28px 0 30px;border-radius:8px;overflow:hidden;background:#fff}
-#whyChoosePVEng .why-choose-accent i{display:block;width:34%;background:#ff841f}
-#whyChoosePVEng .why-choose-accent b{display:block;flex:1;background:#0da2f5}
-#whyChoosePVEng .why-choose-intro p{max-width:280px;margin:0;color:rgba(255,255,255,.94);font-size:18px;line-height:1.65;font-weight:400}
-#whyChoosePVEng .why-choose-list{display:flex;flex-direction:column;gap:13px;min-width:0}
-#whyChoosePVEng .why-choose-item{position:relative;isolation:isolate;display:grid;grid-template-columns:72px 92px minmax(0,1fr) 190px;align-items:center;gap:16px;min-height:110px;padding:12px 0 12px 18px;overflow:hidden;background:rgba(255,255,255,.94);border:1px solid #e2effb;border-radius:15px;box-shadow:0 8px 22px rgba(19,91,153,.09);transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease}
-#whyChoosePVEng .why-choose-item:hover{transform:translateY(-3px);border-color:#b9dafa;box-shadow:0 14px 28px rgba(19,91,153,.15)}
-#whyChoosePVEng .why-choose-number{display:flex;align-items:center;justify-content:center;align-self:stretch;border-right:1px solid #e4effa;font-size:25px;font-weight:800;letter-spacing:-.5px;color:#075fbe}
-#whyChoosePVEng .why-choose-number:after{content:"";position:absolute;left:35px;bottom:20px;width:28px;height:3px;background:#69b5f5;border-radius:4px}
-#whyChoosePVEng .why-choose-number.teal{color:#078c91}
-#whyChoosePVEng .why-choose-number.teal:after{background:#53c5c6}
-#whyChoosePVEng .why-choose-icon{position:relative;z-index:2;width:78px;height:78px;object-fit:contain;border-radius:50%;background:#eaf5ff}
-#whyChoosePVEng .why-choose-copy{position:relative;z-index:2;min-width:0;padding:0 2px}
-#whyChoosePVEng .why-choose-copy h3{margin:0 0 6px;color:#0759b8;font-size:20px;line-height:1.22;font-weight:800;letter-spacing:-.35px}
-#whyChoosePVEng .why-choose-item:nth-child(even) .why-choose-copy h3{color:#087fbb}
-#whyChoosePVEng .why-choose-copy p{margin:0;color:#25456f;font-size:14px;line-height:1.48}
-#whyChoosePVEng .why-choose-photo{position:relative;z-index:1;width:190px;height:100%;min-height:84px;max-height:110px;align-self:stretch;object-fit:cover;clip-path:polygon(27% 0,100% 0,100% 100%,0 100%);margin:-12px 0 -12px 0;opacity:.94}
-@media(max-width:1199px){#whyChoosePVEng .why-choose-layout{grid-template-columns:minmax(235px,.72fr) minmax(0,2fr);gap:15px}#whyChoosePVEng .why-choose-item{grid-template-columns:58px 72px minmax(0,1fr) 135px;gap:12px;padding-left:12px}#whyChoosePVEng .why-choose-icon{width:66px;height:66px}#whyChoosePVEng .why-choose-photo{width:135px}#whyChoosePVEng .why-choose-copy h3{font-size:17px}#whyChoosePVEng .why-choose-copy p{font-size:13px}#whyChoosePVEng .why-choose-number:after{left:27px}}
-@media(max-width:767px){#whyChoosePVEng.why-choose-pveng{padding:30px 0}#whyChoosePVEng .why-choose-layout{grid-template-columns:1fr;gap:16px}#whyChoosePVEng .why-choose-intro{min-height:300px;background-position:center 44%}#whyChoosePVEng .why-choose-intro-content{padding:30px 25px}#whyChoosePVEng .why-choose-kicker{margin-bottom:14px}#whyChoosePVEng .why-choose-intro h2{font-size:34px}#whyChoosePVEng .why-choose-accent{margin:18px 0}#whyChoosePVEng .why-choose-intro p{font-size:15px;max-width:360px}#whyChoosePVEng .why-choose-list{gap:10px}#whyChoosePVEng .why-choose-item{grid-template-columns:42px 58px minmax(0,1fr);gap:10px;min-height:120px;padding:12px;border-radius:12px}#whyChoosePVEng .why-choose-number{font-size:19px}#whyChoosePVEng .why-choose-number:after{left:18px;bottom:18px;width:22px}#whyChoosePVEng .why-choose-icon{width:54px;height:54px}#whyChoosePVEng .why-choose-copy h3{font-size:16px}#whyChoosePVEng .why-choose-copy p{font-size:12px;line-height:1.45}#whyChoosePVEng .why-choose-photo{display:none}}
-@media(prefers-reduced-motion:reduce){#whyChoosePVEng .why-choose-item{transition:none}}
-
-
+#whyChoosePVEng.why-choose-pveng {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 48px 0;
+  background: linear-gradient(135deg, #f3faff 0%, #ffffff 58%, #edf7ff 100%);
+  color: #103467;
+}
+#whyChoosePVEng:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(
+      rgba(27, 112, 190, 0.035) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(27, 112, 190, 0.035) 1px, transparent 1px);
+  background-size: 34px 34px;
+  mask-image: linear-gradient(90deg, #000, transparent 80%);
+  z-index: -1;
+  pointer-events: none;
+}
+#whyChoosePVEng .why-choose-layout {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.78fr) minmax(0, 2fr);
+  gap: 20px;
+  align-items: stretch;
+}
+#whyChoosePVEng .why-choose-intro {
+  position: relative;
+  min-height: 610px;
+  overflow: hidden;
+  border-radius: 20px;
+  background: linear-gradient(
+      145deg,
+      rgba(4, 48, 112, 0.96),
+      rgba(0, 116, 207, 0.88)
+    ),
+    url("../images/why-choose/industrial-panel.png") center/cover no-repeat;
+  box-shadow: 0 16px 38px rgba(6, 75, 143, 0.2);
+}
+#whyChoosePVEng .why-choose-intro:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+      180deg,
+      rgba(4, 41, 96, 0.12),
+      rgba(0, 109, 199, 0.22)
+    ),
+    url("../images/why-choose/industrial-panel.png") center/cover no-repeat;
+  opacity: 0.52;
+  mix-blend-mode: screen;
+}
+#whyChoosePVEng .why-choose-intro:after {
+  content: "";
+  position: absolute;
+  left: -15%;
+  bottom: -14%;
+  width: 125%;
+  height: 34%;
+  background: linear-gradient(
+    120deg,
+    rgba(0, 161, 255, 0.5),
+    rgba(0, 78, 172, 0)
+  );
+  transform: skewY(-15deg);
+}
+#whyChoosePVEng .why-choose-intro-content {
+  position: relative;
+  z-index: 1;
+  padding: 42px 32px;
+  color: #fff;
+}
+#whyChoosePVEng .why-choose-kicker {
+  display: inline-block;
+  margin-bottom: 24px;
+  color: #9fddff;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+#whyChoosePVEng .why-choose-intro h2 {
+  margin: 0;
+  color: #fff;
+  font-size: clamp(34px, 3vw, 48px);
+  font-weight: 400;
+  line-height: 1.13;
+  letter-spacing: -1px;
+}
+#whyChoosePVEng .why-choose-intro h2 strong {
+  display: inline-block;
+  margin-top: 5px;
+  font-weight: 800;
+  font-size: 1.24em;
+  letter-spacing: -1.7px;
+}
+#whyChoosePVEng .why-choose-intro h2 strong span {
+  color: #19a7ff;
+}
+#whyChoosePVEng .why-choose-accent {
+  display: flex;
+  gap: 0;
+  width: 150px;
+  height: 5px;
+  margin: 28px 0 30px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+}
+#whyChoosePVEng .why-choose-accent i {
+  display: block;
+  width: 34%;
+  background: #ff841f;
+}
+#whyChoosePVEng .why-choose-accent b {
+  display: block;
+  flex: 1;
+  background: #0da2f5;
+}
+#whyChoosePVEng .why-choose-intro p {
+  max-width: 280px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.94);
+  font-size: 18px;
+  line-height: 1.65;
+  font-weight: 400;
+}
+#whyChoosePVEng .why-choose-list {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  min-width: 0;
+}
+#whyChoosePVEng .why-choose-item {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  grid-template-columns: 72px 92px minmax(0, 1fr) 190px;
+  align-items: center;
+  gap: 16px;
+  min-height: 110px;
+  padding: 12px 0 12px 18px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid #e2effb;
+  border-radius: 15px;
+  box-shadow: 0 8px 22px rgba(19, 91, 153, 0.09);
+  transition: transform 0.22s ease, box-shadow 0.22s ease,
+    border-color 0.22s ease;
+}
+#whyChoosePVEng .why-choose-item:hover {
+  transform: translateY(-3px);
+  border-color: #b9dafa;
+  box-shadow: 0 14px 28px rgba(19, 91, 153, 0.15);
+}
+#whyChoosePVEng .why-choose-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  border-right: 1px solid #e4effa;
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: #075fbe;
+}
+#whyChoosePVEng .why-choose-number:after {
+  content: "";
+  position: absolute;
+  left: 35px;
+  bottom: 20px;
+  width: 28px;
+  height: 3px;
+  background: #69b5f5;
+  border-radius: 4px;
+}
+#whyChoosePVEng .why-choose-number.teal {
+  color: #078c91;
+}
+#whyChoosePVEng .why-choose-number.teal:after {
+  background: #53c5c6;
+}
+#whyChoosePVEng .why-choose-icon {
+  position: relative;
+  z-index: 2;
+  width: 78px;
+  height: 78px;
+  object-fit: contain;
+  border-radius: 50%;
+  background: #eaf5ff;
+}
+#whyChoosePVEng .why-choose-copy {
+  position: relative;
+  z-index: 2;
+  min-width: 0;
+  padding: 0 2px;
+}
+#whyChoosePVEng .why-choose-copy h3 {
+  margin: 0 0 6px;
+  color: #0759b8;
+  font-size: 20px;
+  line-height: 1.22;
+  font-weight: 800;
+  letter-spacing: -0.35px;
+}
+#whyChoosePVEng .why-choose-item:nth-child(even) .why-choose-copy h3 {
+  color: #087fbb;
+}
+#whyChoosePVEng .why-choose-copy p {
+  margin: 0;
+  color: #25456f;
+  font-size: 14px;
+  line-height: 1.48;
+}
+#whyChoosePVEng .why-choose-photo {
+  position: relative;
+  z-index: 1;
+  width: 190px;
+  height: 100%;
+  min-height: 84px;
+  max-height: 110px;
+  align-self: stretch;
+  object-fit: cover;
+  clip-path: polygon(27% 0, 100% 0, 100% 100%, 0 100%);
+  margin: -12px 0 -12px 0;
+  opacity: 0.94;
+}
+@media (max-width: 1199px) {
+  #whyChoosePVEng .why-choose-layout {
+    grid-template-columns: minmax(235px, 0.72fr) minmax(0, 2fr);
+    gap: 15px;
+  }
+  #whyChoosePVEng .why-choose-item {
+    grid-template-columns: 58px 72px minmax(0, 1fr) 135px;
+    gap: 12px;
+    padding-left: 12px;
+  }
+  #whyChoosePVEng .why-choose-icon {
+    width: 66px;
+    height: 66px;
+  }
+  #whyChoosePVEng .why-choose-photo {
+    width: 135px;
+  }
+  #whyChoosePVEng .why-choose-copy h3 {
+    font-size: 17px;
+  }
+  #whyChoosePVEng .why-choose-copy p {
+    font-size: 13px;
+  }
+  #whyChoosePVEng .why-choose-number:after {
+    left: 27px;
+  }
+}
+@media (max-width: 767px) {
+  #whyChoosePVEng.why-choose-pveng {
+    padding: 30px 0;
+  }
+  #whyChoosePVEng .why-choose-layout {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  #whyChoosePVEng .why-choose-intro {
+    min-height: 300px;
+    background-position: center 44%;
+  }
+  #whyChoosePVEng .why-choose-intro-content {
+    padding: 30px 25px;
+  }
+  #whyChoosePVEng .why-choose-kicker {
+    margin-bottom: 14px;
+  }
+  #whyChoosePVEng .why-choose-intro h2 {
+    font-size: 34px;
+  }
+  #whyChoosePVEng .why-choose-accent {
+    margin: 18px 0;
+  }
+  #whyChoosePVEng .why-choose-intro p {
+    font-size: 15px;
+    max-width: 360px;
+  }
+  #whyChoosePVEng .why-choose-list {
+    gap: 10px;
+  }
+  #whyChoosePVEng .why-choose-item {
+    grid-template-columns: 42px 58px minmax(0, 1fr);
+    gap: 10px;
+    min-height: 120px;
+    padding: 12px;
+    border-radius: 12px;
+  }
+  #whyChoosePVEng .why-choose-number {
+    font-size: 19px;
+  }
+  #whyChoosePVEng .why-choose-number:after {
+    left: 18px;
+    bottom: 18px;
+    width: 22px;
+  }
+  #whyChoosePVEng .why-choose-icon {
+    width: 54px;
+    height: 54px;
+  }
+  #whyChoosePVEng .why-choose-copy h3 {
+    font-size: 16px;
+  }
+  #whyChoosePVEng .why-choose-copy p {
+    font-size: 12px;
+    line-height: 1.45;
+  }
+  #whyChoosePVEng .why-choose-photo {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  #whyChoosePVEng .why-choose-item {
+    transition: none;
+  }
+}
 
 /* =========================
    PV Eng - Engineering Process
@@ -6971,7 +7651,9 @@ textarea.form-control {
   position: relative;
   overflow: hidden;
   padding: 62px 0 70px;
-  background: #f6fbff url("../images/engineering-process/process-blueprint-bg.jpg") center center / cover no-repeat;
+  background: #f6fbff
+    url("../images/engineering-process/process-blueprint-bg.jpg") center center /
+    cover no-repeat;
   isolation: isolate;
 }
 .engineering-process-section:before {
@@ -6979,7 +7661,12 @@ textarea.form-control {
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(105deg, rgba(255,255,255,.96) 0%, rgba(248,252,255,.93) 57%, rgba(236,247,255,.72) 100%);
+  background: linear-gradient(
+    105deg,
+    rgba(255, 255, 255, 0.96) 0%,
+    rgba(248, 252, 255, 0.93) 57%,
+    rgba(236, 247, 255, 0.72) 100%
+  );
 }
 .engineering-process-heading {
   max-width: 760px;
@@ -7001,7 +7688,9 @@ textarea.form-control {
   line-height: 1.2;
   font-weight: 800;
 }
-.engineering-process-heading h2 span { color: #1264c5; }
+.engineering-process-heading h2 span {
+  color: #1264c5;
+}
 .engineering-process-underline {
   display: flex;
   justify-content: center;
@@ -7012,9 +7701,19 @@ textarea.form-control {
   height: 5px;
 }
 .engineering-process-underline i,
-.engineering-process-underline b { display: block; height: 5px; border-radius: 5px; }
-.engineering-process-underline i { width: 70%; background: #1264c5; }
-.engineering-process-underline b { width: 30%; background: #08aaa7; }
+.engineering-process-underline b {
+  display: block;
+  height: 5px;
+  border-radius: 5px;
+}
+.engineering-process-underline i {
+  width: 70%;
+  background: #1264c5;
+}
+.engineering-process-underline b {
+  width: 30%;
+  background: #08aaa7;
+}
 .engineering-process-heading p {
   margin: 0 auto;
   color: #4b607c;
@@ -7026,7 +7725,7 @@ textarea.form-control {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
   align-items: center;
-  
+
   min-height: 70px;
 }
 .engineering-process-track {
@@ -7037,7 +7736,7 @@ textarea.form-control {
   height: 3px;
   transform: translateY(-50%);
   background: linear-gradient(90deg, #1466ca 0%, #0aa5a7 50%, #1466ca 100%);
-  opacity: .55;
+  opacity: 0.55;
 }
 .engineering-process-node {
   position: relative;
@@ -7048,15 +7747,19 @@ textarea.form-control {
   justify-content: center;
   width: 54px;
   height: 54px;
-  border: 4px solid rgba(255,255,255,.96);
+  border: 4px solid rgba(255, 255, 255, 0.96);
   border-radius: 50%;
   color: #fff;
   font-size: 20px;
   font-weight: 800;
-  box-shadow: 0 4px 14px rgba(20,82,154,.2);
+  box-shadow: 0 4px 14px rgba(20, 82, 154, 0.2);
 }
-.engineering-process-node.blue { background: linear-gradient(145deg, #1267d2, #06439e); }
-.engineering-process-node.teal { background: linear-gradient(145deg, #0aa7a5, #087578); }
+.engineering-process-node.blue {
+  background: linear-gradient(145deg, #1267d2, #06439e);
+}
+.engineering-process-node.teal {
+  background: linear-gradient(145deg, #0aa7a5, #087578);
+}
 .engineering-process-grid {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -7071,25 +7774,25 @@ textarea.form-control {
   min-height: 340px;
   padding: 10px 10px 10px;
   overflow: hidden;
-  border: 1px solid rgba(184,214,245,.8);
+  border: 1px solid rgba(184, 214, 245, 0.8);
   border-top: 5px solid var(--process-accent);
   border-radius: 14px;
-  background: rgba(255,255,255,.94);
-  box-shadow: 0 12px 30px rgba(29,91,156,.10);
-  transition: transform .25s ease, box-shadow .25s ease;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 12px 30px rgba(29, 91, 156, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .engineering-process-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 18px 34px rgba(29,91,156,.16);
+  box-shadow: 0 18px 34px rgba(29, 91, 156, 0.16);
 }
 .engineering-process-card.process-teal {
   --process-accent: #078b8b;
-  --process-glow: rgba(0,157,156,.10);
+  --process-glow: rgba(0, 157, 156, 0.1);
 }
 .engineering-process-card.process-blue {
   --process-accent: #1264c5;
-  --process-glow: rgba(24,113,215,.08);
+  --process-glow: rgba(24, 113, 215, 0.08);
 }
 .engineering-process-icon {
   position: relative;
@@ -7103,10 +7806,16 @@ textarea.form-control {
   border-radius: 50%;
   background: linear-gradient(145deg, #edf6ff, #dcecff);
 }
-.process-teal .engineering-process-icon { background: linear-gradient(145deg, #eafafa, #d8f2f1); }
-.engineering-process-icon img { width: 100px; height: 100px; object-fit: contain; }
+.process-teal .engineering-process-icon {
+  background: linear-gradient(145deg, #eafafa, #d8f2f1);
+}
+.engineering-process-icon img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
 .engineering-process-step {
-  text-align:center;
+  text-align: center;
   margin-bottom: 8px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -7116,7 +7825,9 @@ textarea.form-control {
   font-weight: 800;
   letter-spacing: 1px;
 }
-.process-teal .engineering-process-step { background: #e2f6f5; }
+.process-teal .engineering-process-step {
+  background: #e2f6f5;
+}
 .engineering-process-card h3 {
   position: relative;
   margin: 0 0 12px;
@@ -7140,27 +7851,134 @@ textarea.form-control {
   line-height: 1.6;
 }
 @media (max-width: 1199px) {
-  .engineering-process-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .engineering-process-timeline { display: none; }
-  .engineering-process-card { min-height: 330px; }
+  .engineering-process-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .engineering-process-timeline {
+    display: none;
+  }
+  .engineering-process-card {
+    min-height: 330px;
+  }
 }
 @media (max-width: 767px) {
-  .engineering-process-section { padding: 44px 0 48px; }
-  .engineering-process-heading { margin-bottom: 25px; padding: 0 12px; }
-  .engineering-process-heading h2 { font-size: 29px; }
-  .engineering-process-heading p { font-size: 14px; }
-  .engineering-process-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
-  .engineering-process-card { min-height: 0; padding: 18px 14px 20px; border-radius: 11px; }
-  .engineering-process-icon { width: 68px; height: 68px; margin-bottom: 13px; }
-  .engineering-process-icon img { width: 60px; height: 60px; }
-  .engineering-process-card h3 { font-size: 16px; }
-  .engineering-process-card p { font-size: 13px; line-height: 1.5; }
-  .engineering-process-step { font-size: 10px; }
+  .engineering-process-section {
+    padding: 44px 0 48px;
+  }
+  .engineering-process-heading {
+    margin-bottom: 25px;
+    padding: 0 12px;
+  }
+  .engineering-process-heading h2 {
+    font-size: 29px;
+  }
+  .engineering-process-heading p {
+    font-size: 14px;
+  }
+  .engineering-process-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .engineering-process-card {
+    min-height: 0;
+    padding: 18px 14px 20px;
+    border-radius: 11px;
+  }
+  .engineering-process-icon {
+    width: 68px;
+    height: 68px;
+    margin-bottom: 13px;
+  }
+  .engineering-process-icon img {
+    width: 60px;
+    height: 60px;
+  }
+  .engineering-process-card h3 {
+    font-size: 16px;
+  }
+  .engineering-process-card p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .engineering-process-step {
+    font-size: 10px;
+  }
 }
 @media (max-width: 480px) {
-  .engineering-process-grid { grid-template-columns: 1fr; }
-  .engineering-process-card { padding: 18px; }
-  .engineering-process-card h3 { font-size: 18px; }
-  .engineering-process-card p { font-size: 14px; }
+  .engineering-process-grid {
+    grid-template-columns: 1fr;
+  }
+  .engineering-process-card {
+    padding: 18px;
+  }
+  .engineering-process-card h3 {
+    font-size: 18px;
+  }
+  .engineering-process-card p {
+    font-size: 14px;
+  }
 }
 
+
+/* =========================================================
+   PV Eng Hero Slider: clean text hierarchy and clear CTAs
+========================================================= */
+#slider3.pv-hero-slider { position: relative; overflow: hidden; }
+#slider3.pv-hero-slider .pv-hero-slide {
+  min-height: 510px; height: min(76vh, 700px); display: flex; align-items: center;
+  padding: 72px 0 66px;
+}
+#slider3.pv-hero-slider .pv-hero-slide .bg-img { position: absolute; inset: 0; z-index: 0; }
+#slider3.pv-hero-slider .pv-hero-slide .bg-img img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
+#slider3.pv-hero-slider .pv-hero-slide:before {
+  content: ""; position: absolute; inset: 0; z-index: 1;
+  background: linear-gradient(90deg, rgba(3,28,61,.90) 0%, rgba(4,43,83,.76) 42%, rgba(4,43,83,.25) 76%, rgba(4,43,83,.12) 100%);
+}
+#slider3.pv-hero-slider .pv-hero-container, #slider3.pv-hero-slider .pv-hero-content { position: relative; z-index: 2; }
+#slider3.pv-hero-slider .pv-hero-content { max-width: 790px; padding: 0; margin: 0; text-align: left; }
+#slider3.pv-hero-slider .pv-hero-eyebrow {
+  display: inline-block; margin: 0 0 15px; color: #54c9ff; font-size: 13px;
+  font-weight: 800; letter-spacing: 2px; line-height: 1.4;
+}
+#slider3.pv-hero-slider .pv-hero-title {
+  margin: 0 0 14px !important; max-width: 790px; color: #fff; font-family: inherit;
+  font-size: clamp(34px, 4vw, 58px); font-weight: 800; line-height: 1.12;
+  letter-spacing: -.7px; text-shadow: 0 2px 14px rgba(0,0,0,.18);
+}
+#slider3.pv-hero-slider .pv-hero-title span { display: block; }
+#slider3.pv-hero-slider .pv-hero-subtitle {
+  margin: 0 0 16px; color: #55c8ff; font-size: clamp(21px, 2.2vw, 30px);
+  font-weight: 750; line-height: 1.25;
+}
+#slider3.pv-hero-slider .pv-hero-description {
+  max-width: 680px; margin: 0 0 27px; color: rgba(255,255,255,.94);
+  font-size: 17px; font-weight: 400; line-height: 1.65;
+}
+#slider3.pv-hero-slider .pv-hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; }
+#slider3.pv-hero-slider .quote-button {
+  display: inline-flex; align-items: center; justify-content: center; gap: 12px;
+  min-height: 54px; margin: 0 !important; padding: 14px 24px !important;
+  border: 2px solid #0878d1 !important; border-radius: 9px !important;
+  background: #0878d1 !important; color: #fff !important; font-size: 15px !important;
+  font-weight: 700 !important; line-height: 1.25 !important; text-decoration: none !important;
+  box-shadow: 0 8px 22px rgba(0,20,50,.24); transition: transform .2s ease, background .2s ease, box-shadow .2s ease;
+}
+#slider3.pv-hero-slider .pv-hero-quote { background: #0878d1 !important; border-color: #0878d1 !important; }
+#slider3.pv-hero-slider .pv-hero-whatsapp {
+  background: rgba(3,27,59,.36) !important; border-color: rgba(255,255,255,.85) !important;
+  backdrop-filter: blur(5px);
+}
+#slider3.pv-hero-slider .quote-button:hover, #slider3.pv-hero-slider .quote-button:focus-visible {
+  transform: translateY(-2px); background: #005ca8 !important; border-color: #69d0ff !important;
+  color: #fff !important; box-shadow: 0 12px 28px rgba(0,20,50,.32);
+}
+@media (max-width: 767px) {
+  #slider3.pv-hero-slider .pv-hero-slide { height: auto; min-height: 490px; padding: 76px 0 64px; }
+  #slider3.pv-hero-slider .pv-hero-slide:before { background: linear-gradient(90deg, rgba(3,28,61,.92), rgba(4,43,83,.72)); }
+  #slider3.pv-hero-slider .pv-hero-content { max-width: 100%; }
+  #slider3.pv-hero-slider .pv-hero-title { font-size: clamp(31px, 7.4vw, 43px); line-height: 1.14; letter-spacing: -.3px; }
+  #slider3.pv-hero-slider .pv-hero-subtitle { font-size: 22px; line-height: 1.3; }
+  #slider3.pv-hero-slider .pv-hero-description { font-size: 15px; line-height: 1.55; margin-bottom: 22px; }
+  #slider3.pv-hero-slider .pv-hero-actions { align-items: stretch; flex-direction: column; gap: 11px; max-width: 310px; }
+  #slider3.pv-hero-slider .quote-button { width: 100%; min-height: 50px; padding: 13px 17px !important; font-size: 14px !important; }
+}
