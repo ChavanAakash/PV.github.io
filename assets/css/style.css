@@ -6871,3 +6871,93 @@ textarea.form-control {
     }
 }
 
+
+
+/* PVEng engineering section redesign */
+#pvEngineering.pv-engineering-section{position:relative;isolation:isolate;overflow:hidden;padding:42px 0 36px!important;background:#f7fbff url('../images/pv-engineering/pv-engineering-bg.jpg') center center/cover no-repeat;color:#092d69}
+#pvEngineering.pv-engineering-section:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.86) 0%,rgba(255,255,255,.76) 55%,rgba(255,255,255,.48) 100%);z-index:-1}
+#pvEngineering .container{position:relative;z-index:1}
+#pvEngineering .pv-engineering-title{font-size:clamp(28px,3vw,42px);font-weight:800;letter-spacing:-.7px;line-height:1.15;color:#586173;margin-bottom:12px}
+#pvEngineering .pv-engineering-title span{color:#0874cf}
+#pvEngineering .pv-engineering-desc{font-size:16px;line-height:1.65;color:#102f68;max-width:1100px;margin-bottom:20px}
+#pvEngineering .pv-engineering-card{border:1px solid rgba(255,255,255,.9);border-radius:13px;overflow:hidden;box-shadow:0 10px 28px rgba(19,87,156,.12);background:rgba(255,255,255,.82);transition:transform .25s ease,box-shadow .25s ease}
+#pvEngineering .pv-engineering-card:hover{transform:translateY(-3px);box-shadow:0 16px 34px rgba(19,87,156,.18)}
+#pvEngineering .pv-engineering-card h4{display:flex;align-items:center;gap:15px;padding:15px 20px;background:linear-gradient(110deg,#0755b4,#078bdf);font-size:20px;line-height:1.25;color:#fff}
+#pvEngineering .pv-card-icon{width:50px;height:50px;object-fit:contain;flex:0 0 50px}
+#pvEngineering .pv-engineering-card-content{min-height:0;padding:14px 24px 15px;background:rgba(238,247,255,.91);color:#102f68}
+#pvEngineering .pv-engineering-card-content ul{padding-left:20px}
+#pvEngineering .pv-engineering-card-content li{font-size:16px;line-height:1.6;margin-bottom:3px;padding-left:3px}
+#pvEngineering .pv-engineering-card-content li::marker{color:#0968c6}
+#pvEngineering .pv-engineering-focus-title{display:flex;align-items:center;gap:14px;font-size:17px;font-weight:800;letter-spacing:.25px;margin:2px 0 12px;color:#092d69}
+#pvEngineering .pv-engineering-focus-title:after{content:"";height:3px;width:70px;background:linear-gradient(90deg,#0755b4,#08a0ee);border-radius:5px}
+#pvEngineering .pv-engineering-focus-row{margin-left:-7px;margin-right:-7px}
+#pvEngineering .pv-engineering-focus-row>[class*="col-"]{padding-left:7px;padding-right:7px}
+#pvEngineering .pv-engineering-focus-item{display:flex;align-items:center;justify-content:flex-start;gap:14px;min-height:82px;padding:10px 14px;background:rgba(255,255,255,.91);border:1px solid #d7e8fb;border-radius:12px;box-shadow:0 7px 18px rgba(22,92,160,.08);color:#092d69;text-align:left;font-size:16px;font-weight:700;line-height:1.35;transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease}
+#pvEngineering .pv-engineering-focus-item:hover{transform:translateY(-3px);border-color:#8ec7f5;box-shadow:0 12px 24px rgba(22,92,160,.14)}
+#pvEngineering .pv-engineering-focus-item img{width:62px;height:62px;object-fit:contain;flex:0 0 62px}
+#pvEngineering .pv-engineering-focus-item span{display:block}
+#pvEngineering .pv-engineering-footer{display:flex;align-items:center;gap:17px;margin-top:14px;padding:14px 20px;border-radius:12px;background:linear-gradient(105deg,#0755b4,#078cdd);box-shadow:0 10px 24px rgba(5,82,171,.18);color:#fff;font-size:15px;line-height:1.55;font-weight:500}
+#pvEngineering .pv-engineering-footer img{width:34px;height:40px;object-fit:contain;flex:0 0 34px;padding-right:13px;border-right:2px solid rgba(255,255,255,.7);box-sizing:content-box}
+@media(max-width:991px){#pvEngineering.pv-engineering-section{padding:34px 0!important}#pvEngineering .pv-engineering-card h4{font-size:18px}#pvEngineering .pv-engineering-focus-item{gap:9px;padding:9px;min-height:76px;font-size:14px}#pvEngineering .pv-engineering-focus-item img{width:48px;height:48px;flex-basis:48px}}
+@media(max-width:575px){#pvEngineering .pv-engineering-title{font-size:29px}#pvEngineering .pv-engineering-desc{font-size:14px}#pvEngineering .pv-engineering-card h4{font-size:16px;padding:12px 14px}#pvEngineering .pv-engineering-card-content{padding:12px 17px}#pvEngineering .pv-engineering-card-content li{font-size:14px}#pvEngineering .pv-engineering-focus-row>[class*="col-"]{margin-bottom:10px}#pvEngineering .pv-engineering-focus-item{min-height:72px;font-size:12px;gap:7px;padding:8px}#pvEngineering .pv-engineering-focus-item img{width:40px;height:40px;flex-basis:40px}#pvEngineering .pv-engineering-footer{align-items:flex-start;padding:12px;font-size:12px;gap:12px}#pvEngineering .pv-engineering-footer img{width:27px;height:34px;flex-basis:27px;padding-right:9px}}
+
+
+/* Premium PVEng Engineering Capabilities section */
+#engineeringCapabilities.engineering-capabilities{position:relative;isolation:isolate;overflow:hidden;padding:42px 0 36px!important;background:#f7fbff url('../images/capabilities/capabilities-blueprint-bg.jpg') center center/cover no-repeat;color:#102f68}
+#engineeringCapabilities.engineering-capabilities:before{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(255,255,255,.96) 0%,rgba(255,255,255,.91) 55%,rgba(255,255,255,.74) 100%);z-index:-1}
+#engineeringCapabilities .container{position:relative;z-index:1}
+#engineeringCapabilities .capabilities-title{font-size:clamp(30px,3vw,42px);font-weight:800;letter-spacing:-.7px;line-height:1.15;color:#152d55;margin:0 0 12px}
+#engineeringCapabilities .capabilities-title span{color:#0864c5}
+#engineeringCapabilities .capabilities-divider{width:112px;height:4px;margin:0 0 22px;background:linear-gradient(90deg,#ff7b18 0 40%,#087bd7 40% 100%);border-radius:5px}
+#engineeringCapabilities .capability-grid{row-gap:0}
+#engineeringCapabilities .capability-grid>div{display:flex;margin-bottom:20px}
+#engineeringCapabilities .capability-card{position:relative;display:flex;flex-direction:column;width:100%;height:100%;min-height:330px;padding:0 20px 16px;background:rgba(255,255,255,.94);border:1px solid rgba(209,229,249,.9);border-top:6px solid #0871d2;border-radius:17px;overflow:hidden;box-shadow:0 10px 28px rgba(26,91,153,.10);transition:transform .25s ease,box-shadow .25s ease}
+#engineeringCapabilities .capability-card:after{content:"";position:absolute;right:-35px;top:0;width:44%;height:174px;background:linear-gradient(125deg,rgba(222,241,255,.0),rgba(191,225,251,.35));clip-path:polygon(35% 0,100% 0,100% 100%,0 100%);pointer-events:none}
+#engineeringCapabilities .capability-card.capability-blue{border-top-color:#0871d2}
+#engineeringCapabilities .capability-card.capability-teal{border-top-color:#08a99d}
+#engineeringCapabilities .capability-card:hover{transform:translateY(-5px);box-shadow:0 18px 34px rgba(26,91,153,.17)}
+#engineeringCapabilities .capability-visual{height:138px;position:relative;display:flex;align-items:flex-start;padding-top:18px;margin:0 -20px 6px;overflow:hidden}
+#engineeringCapabilities .capability-icon{position:relative;z-index:2;width:86px;height:86px;object-fit:contain;margin-left:20px;filter:drop-shadow(0 4px 7px rgba(14,71,130,.07))}
+#engineeringCapabilities .capability-equipment{position:absolute;z-index:1;right:0;top:0;width:58%;height:138px;object-fit:cover;object-position:center;border-radius:0 0 0 48px;mask-image:linear-gradient(90deg,transparent 0%,#000 23%);}
+#engineeringCapabilities .capability-card h3{position:relative;z-index:3;margin:0 0 8px;color:#075cbd;font-size:21px;font-weight:800;line-height:1.25;letter-spacing:-.3px}
+#engineeringCapabilities .capability-card.capability-teal h3{color:#078b83}
+#engineeringCapabilities .capability-card p{position:relative;z-index:2;margin:0 0 14px;color:#20385f;font-size:14px;line-height:1.48;font-weight:400}
+#engineeringCapabilities .capability-label{position:relative;z-index:2;display:flex;align-items:center;justify-content:center;min-height:39px;margin-top:auto;padding:8px 10px;border-radius:9px;background:#e1f1ff;color:#0756b0;text-align:center;font-size:14px;font-weight:700;line-height:1.35}
+#engineeringCapabilities .capability-teal .capability-label{background:#e0f5f3;color:#056776}
+@media(max-width:1199px){#engineeringCapabilities .capability-card{min-height:350px}#engineeringCapabilities .capability-card h3{font-size:18px}#engineeringCapabilities .capability-equipment{width:55%}}
+@media(max-width:767px){#engineeringCapabilities.engineering-capabilities{padding:32px 0 22px!important}#engineeringCapabilities .capabilities-title{font-size:29px}#engineeringCapabilities .capability-grid>div{margin-bottom:16px}#engineeringCapabilities .capability-card{min-height:0;padding:0 16px 15px}#engineeringCapabilities .capability-visual{height:122px;margin:0 -16px 8px;padding-top:15px}#engineeringCapabilities .capability-icon{width:74px;height:74px;margin-left:16px}#engineeringCapabilities .capability-equipment{height:122px;width:59%}#engineeringCapabilities .capability-card h3{font-size:19px}#engineeringCapabilities .capability-card p{font-size:14px;line-height:1.5}}
+@media(prefers-reduced-motion:reduce){#engineeringCapabilities .capability-card{transition:none}}
+
+
+/* Why Choose PV Eng — premium split panel and feature rows */
+#whyChoosePVEng.why-choose-pveng{position:relative;isolation:isolate;overflow:hidden;padding:48px 0;background:linear-gradient(135deg,#f3faff 0%,#ffffff 58%,#edf7ff 100%);color:#103467}
+#whyChoosePVEng:before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(27,112,190,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(27,112,190,.035) 1px,transparent 1px);background-size:34px 34px;mask-image:linear-gradient(90deg,#000,transparent 80%);z-index:-1;pointer-events:none}
+#whyChoosePVEng .why-choose-layout{display:grid;grid-template-columns:minmax(260px,.78fr) minmax(0,2fr);gap:20px;align-items:stretch}
+#whyChoosePVEng .why-choose-intro{position:relative;min-height:610px;overflow:hidden;border-radius:20px;background:linear-gradient(145deg,rgba(4,48,112,.96),rgba(0,116,207,.88)),url('../images/why-choose/industrial-panel.png') center/cover no-repeat;box-shadow:0 16px 38px rgba(6,75,143,.2)}
+#whyChoosePVEng .why-choose-intro:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,41,96,.12),rgba(0,109,199,.22)),url('../images/why-choose/industrial-panel.png') center/cover no-repeat;opacity:.52;mix-blend-mode:screen}
+#whyChoosePVEng .why-choose-intro:after{content:"";position:absolute;left:-15%;bottom:-14%;width:125%;height:34%;background:linear-gradient(120deg,rgba(0,161,255,.5),rgba(0,78,172,0));transform:skewY(-15deg)}
+#whyChoosePVEng .why-choose-intro-content{position:relative;z-index:1;padding:42px 32px;color:#fff}
+#whyChoosePVEng .why-choose-kicker{display:inline-block;margin-bottom:24px;color:#9fddff;font-size:10px;font-weight:800;letter-spacing:2px}
+#whyChoosePVEng .why-choose-intro h2{margin:0;color:#fff;font-size:clamp(34px,3vw,48px);font-weight:400;line-height:1.13;letter-spacing:-1px}
+#whyChoosePVEng .why-choose-intro h2 strong{display:inline-block;margin-top:5px;font-weight:800;font-size:1.24em;letter-spacing:-1.7px}
+#whyChoosePVEng .why-choose-intro h2 strong span{color:#19a7ff}
+#whyChoosePVEng .why-choose-accent{display:flex;gap:0;width:150px;height:5px;margin:28px 0 30px;border-radius:8px;overflow:hidden;background:#fff}
+#whyChoosePVEng .why-choose-accent i{display:block;width:34%;background:#ff841f}
+#whyChoosePVEng .why-choose-accent b{display:block;flex:1;background:#0da2f5}
+#whyChoosePVEng .why-choose-intro p{max-width:280px;margin:0;color:rgba(255,255,255,.94);font-size:18px;line-height:1.65;font-weight:400}
+#whyChoosePVEng .why-choose-list{display:flex;flex-direction:column;gap:13px;min-width:0}
+#whyChoosePVEng .why-choose-item{position:relative;isolation:isolate;display:grid;grid-template-columns:72px 92px minmax(0,1fr) 190px;align-items:center;gap:16px;min-height:110px;padding:12px 0 12px 18px;overflow:hidden;background:rgba(255,255,255,.94);border:1px solid #e2effb;border-radius:15px;box-shadow:0 8px 22px rgba(19,91,153,.09);transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease}
+#whyChoosePVEng .why-choose-item:hover{transform:translateY(-3px);border-color:#b9dafa;box-shadow:0 14px 28px rgba(19,91,153,.15)}
+#whyChoosePVEng .why-choose-number{display:flex;align-items:center;justify-content:center;align-self:stretch;border-right:1px solid #e4effa;font-size:25px;font-weight:800;letter-spacing:-.5px;color:#075fbe}
+#whyChoosePVEng .why-choose-number:after{content:"";position:absolute;left:35px;bottom:20px;width:28px;height:3px;background:#69b5f5;border-radius:4px}
+#whyChoosePVEng .why-choose-number.teal{color:#078c91}
+#whyChoosePVEng .why-choose-number.teal:after{background:#53c5c6}
+#whyChoosePVEng .why-choose-icon{position:relative;z-index:2;width:78px;height:78px;object-fit:contain;border-radius:50%;background:#eaf5ff}
+#whyChoosePVEng .why-choose-copy{position:relative;z-index:2;min-width:0;padding:0 2px}
+#whyChoosePVEng .why-choose-copy h3{margin:0 0 6px;color:#0759b8;font-size:20px;line-height:1.22;font-weight:800;letter-spacing:-.35px}
+#whyChoosePVEng .why-choose-item:nth-child(even) .why-choose-copy h3{color:#087fbb}
+#whyChoosePVEng .why-choose-copy p{margin:0;color:#25456f;font-size:14px;line-height:1.48}
+#whyChoosePVEng .why-choose-photo{position:relative;z-index:1;width:190px;height:100%;min-height:84px;max-height:110px;align-self:stretch;object-fit:cover;clip-path:polygon(27% 0,100% 0,100% 100%,0 100%);margin:-12px 0 -12px 0;opacity:.94}
+@media(max-width:1199px){#whyChoosePVEng .why-choose-layout{grid-template-columns:minmax(235px,.72fr) minmax(0,2fr);gap:15px}#whyChoosePVEng .why-choose-item{grid-template-columns:58px 72px minmax(0,1fr) 135px;gap:12px;padding-left:12px}#whyChoosePVEng .why-choose-icon{width:66px;height:66px}#whyChoosePVEng .why-choose-photo{width:135px}#whyChoosePVEng .why-choose-copy h3{font-size:17px}#whyChoosePVEng .why-choose-copy p{font-size:13px}#whyChoosePVEng .why-choose-number:after{left:27px}}
+@media(max-width:767px){#whyChoosePVEng.why-choose-pveng{padding:30px 0}#whyChoosePVEng .why-choose-layout{grid-template-columns:1fr;gap:16px}#whyChoosePVEng .why-choose-intro{min-height:300px;background-position:center 44%}#whyChoosePVEng .why-choose-intro-content{padding:30px 25px}#whyChoosePVEng .why-choose-kicker{margin-bottom:14px}#whyChoosePVEng .why-choose-intro h2{font-size:34px}#whyChoosePVEng .why-choose-accent{margin:18px 0}#whyChoosePVEng .why-choose-intro p{font-size:15px;max-width:360px}#whyChoosePVEng .why-choose-list{gap:10px}#whyChoosePVEng .why-choose-item{grid-template-columns:42px 58px minmax(0,1fr);gap:10px;min-height:120px;padding:12px;border-radius:12px}#whyChoosePVEng .why-choose-number{font-size:19px}#whyChoosePVEng .why-choose-number:after{left:18px;bottom:18px;width:22px}#whyChoosePVEng .why-choose-icon{width:54px;height:54px}#whyChoosePVEng .why-choose-copy h3{font-size:16px}#whyChoosePVEng .why-choose-copy p{font-size:12px;line-height:1.45}#whyChoosePVEng .why-choose-photo{display:none}}
+@media(prefers-reduced-motion:reduce){#whyChoosePVEng .why-choose-item{transition:none}}
