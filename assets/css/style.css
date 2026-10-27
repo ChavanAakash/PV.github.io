@@ -780,7 +780,7 @@ select {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-color: rgba(27, 26, 26, 0.55);
+  background-color: rgba(27, 26, 26, 0.35);
 }
 .bg-overlay-2:before {
   background-color: rgba(27, 26, 26, 0.75);
@@ -3461,6 +3461,7 @@ textarea.form-control {
 }
 .carousel-dots .owl-dots .owl-dot {
   margin: 0 5px;
+  display:none;
 }
 .carousel-dots .owl-dots .owl-dot span {
   position: relative;
@@ -3549,7 +3550,7 @@ textarea.form-control {
   padding: 0;
 }
 .slider .slide-item {
-  height: 100vh;
+  height: 80vh;
 }
 .slider .slide__subtitle {
   display: block;
@@ -3561,10 +3562,11 @@ textarea.form-control {
   margin-bottom: 18px;
 }
 .slider .slide__title {
-  font-size: 65px;
+  font-size: 30px;
   font-weight: 500;
   color: #fff;
-  margin-bottom: 23px;
+  margin-bottom: 123px;
+  margin-top:100px;
 }
 .slider .slide__desc {
   font-size: 17px;
@@ -3581,6 +3583,7 @@ textarea.form-control {
 }
 .slider .carousel-arrows .owl-nav .owl-next,
 .slider .carousel-arrows .owl-nav .owl-prev {
+	display:none;
   color: #fff;
   border: none;
   line-height: 46px;
@@ -3647,7 +3650,7 @@ textarea.form-control {
   padding: 0 50px;
 }
 .slider-3 .slide-item {
-  min-height: 670px;
+  min-height: 370px;
 }
 .slider-3 .slide__desc {
   padding-right: 180px;
@@ -6554,3 +6557,317 @@ textarea.form-control {
     height: 300px;
   }
 }
+
+
+/* Get a Free Quote Button */
+.quote-button,
+.quote-button a {
+    display: inline-block;
+    background: #0878d1 !important;
+    color: #ffffff !important;
+    border: 2px solid #ffffff !important;
+    border-radius: 9px !important;
+    padding: 13px 23px !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    line-height: 1.4 !important;
+    text-decoration: none !important;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+    transition: all 0.25s ease;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+.quote-button:hover,
+.quote-button a:hover {
+    background: #005ca8 !important;
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* =========================================
+   PV Engineering Section
+========================================= */
+
+.pv-engineering-section {
+    background: #ffffff;
+    color: #082c64;
+}
+
+.pv-engineering-title {
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #777777;
+}
+
+.pv-engineering-title span {
+    color: #0876c9;
+    font-weight: 700;
+}
+
+.pv-engineering-desc {
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #092c68;
+}
+
+.pv-engineering-divider {
+    width: 85px;
+    height: 4px;
+    margin: 0;
+    background: #1599ed;
+}
+
+/* Support and Deliverables Cards */
+
+.pv-engineering-card {
+    height: 100%;
+    margin: 0;
+}
+
+.pv-engineering-card h4 {
+    margin: 0;
+    padding: 10px 14px;
+    background: #0865c5;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.pv-engineering-card-content {
+    min-height: 112px;
+    padding: 8px 10px;
+    background: #c8e1f8;
+    color: #082c64;
+}
+
+.pv-engineering-card-content ul {
+    list-style-type: disc !important;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.pv-engineering-card-content li {
+    display: list-item;
+    list-style-type: disc !important;
+    margin-bottom: 2px;
+    padding-left: 0;
+}
+
+/* Our Focus */
+
+.pv-engineering-focus-title {
+    margin: 0 0 8px;
+    color: #082c64;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.pv-engineering-focus-row {
+    row-gap: 0;
+}
+
+.pv-engineering-focus-item {
+    display: flex;
+    min-height: 62px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 8px;
+    background: #0865c5;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+/* Bottom Information Banner */
+
+.pv-engineering-footer {
+    margin-top: 12px;
+    padding: 9px 13px;
+    background: #0865c5;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* Tablet */
+
+@media (max-width: 767px) {
+    .pv-engineering-title {
+        font-size: 19px;
+    }
+
+    .pv-engineering-focus-item {
+        min-height: 58px;
+        font-size: 12px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 575px) {
+    .pv-engineering-section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .pv-engineering-card-content {
+        min-height: auto;
+    }
+
+    .pv-engineering-card h4 {
+        font-size: 14px;
+    }
+
+    .pv-engineering-card-content li {
+        font-size: 12px;
+    }
+
+    .pv-engineering-focus-item {
+        padding: 10px 5px;
+        font-size: 11px;
+    }
+
+    .pv-engineering-footer {
+        font-size: 12px;
+    }
+}
+
+
+/* =========================================
+   Engineering Capabilities Section
+========================================= */
+
+.engineering-capabilities {
+    background: #ffffff;
+}
+
+.capabilities-title {
+    margin-bottom: 8px;
+    color: #0758b5;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.capabilities-divider {
+    width: 85px;
+    height: 4px;
+    margin: 0;
+    background: #1599ed;
+}
+
+/* Capability Cards */
+
+.capability-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 168px;
+    padding: 12px 14px 10px;
+    background: #c8e1f8;
+    border-top: 7px solid #0758b5;
+    color: #073d83;
+}
+
+.capability-card.capability-blue {
+    border-top-color: #0758b5;
+}
+
+.capability-card.capability-teal {
+    border-top-color: #087f7d;
+}
+
+.capability-card h3 {
+    margin: 0 0 8px;
+    color: #0758b5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.capability-card.capability-teal h3 {
+    color: #087f7d;
+}
+
+.capability-card p {
+    margin: 0 0 10px;
+    color: #082c64;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+/* Bottom White Label */
+
+.capability-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 26px;
+    margin-top: auto;
+    padding: 5px 6px;
+    background: #ffffff;
+    color: #0758b5;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+/* Tablet */
+
+@media (max-width: 991px) {
+    .capability-card {
+        min-height: 180px;
+    }
+
+    .capability-card h3 {
+        font-size: 14px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 575px) {
+    .engineering-capabilities {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .capabilities-title {
+        font-size: 20px;
+    }
+
+    .capability-card {
+        min-height: 0;
+        padding: 12px;
+    }
+
+    .capability-card h3 {
+        font-size: 15px;
+    }
+
+    .capability-card p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .capability-label {
+        font-size: 12px;
+    }
+}
+
