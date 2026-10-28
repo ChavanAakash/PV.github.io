@@ -18,10 +18,10 @@
     <!-- =========================
         Header
     =========================== -->
-    <header id="header" class="header header-white header-full">
+    <header id="header" class="header header-white header-full" style="padding-top:20px;">
       
       <nav class="navbar navbar-expand-lg sticky-navbar">
-        <div class="container">
+        <div class="container-fluid px-0" >
           <a class="navbar-brand" href="index.html">
             <img src="assets/images/logo/logo.webp" style="width:200px; padding:5px;" class="logo-dark" alt="logo">
           </a>
@@ -34,20 +34,10 @@
                 <a href="index.html" class="nav__item-link active">Home</a>
                
               </li><!-- /.nav-item -->
-              <li class="nav__item with-dropdown">
-                <a href="#" class="dropdown-toggle nav__item-link">Company</a>
-                <i class="fa fa-angle-right" data-toggle="dropdown"></i>
-                <ul class="dropdown-menu">
-                  <li class="nav__item"><a href="#" class="nav__item-link">About Us</a></li>
-                  <!-- /.nav-item -->
-                  <li class="nav__item"><a href="#" class="nav__item-link">Why Choose Us</a></li>
-                  <!-- /.nav-item -->
-                  <li class="nav__item"><a href="#" class="nav__item-link">careers</a></li>
-                  <!-- /.nav-item -->
-                </ul><!-- /.dropdown-menu -->
-              </li><!-- /.nav-item -->
-              <li class="nav__item with-dropdown">
-                <a href="#" class="dropdown-toggle nav__item-link">Services</a>
+			  
+			  <li class="nav__item with-dropdown">
+                <a href="#" class="dropdown-toggle nav__item-link">Services <i class="fa fa-angle-down"></i>
+</a>
                 <i class="fa fa-angle-right" data-toggle="dropdown"></i>
                 <ul class="dropdown-menu wide-dropdown-menu">
                   <li class="nav__item">
@@ -85,13 +75,28 @@
                   </li><!-- /.nav-item -->
                 </ul><!-- /.dropdown-menu -->
               </li><!-- /.nav-item -->
+			  
+			  
               <li class="nav__item with-dropdown">
-                <a href="#" class="dropdown-toggle nav__item-link">Projects</a>
+                <a href="#" class="dropdown-toggle nav__item-link">About</a>
+                <i class="fa fa-angle-right" data-toggle="dropdown"></i>
+                <ul class="dropdown-menu">
+                  <li class="nav__item"><a href="#" class="nav__item-link">About Us</a></li>
+                  <!-- /.nav-item -->
+                  <li class="nav__item"><a href="#" class="nav__item-link">Why Choose Us</a></li>
+                  <!-- /.nav-item -->
+                  <li class="nav__item"><a href="#" class="nav__item-link">careers</a></li>
+                  <!-- /.nav-item -->
+                </ul><!-- /.dropdown-menu -->
+              </li><!-- /.nav-item -->
+              
+              <li class="nav__item with-dropdown">
+                <a href="#" class="dropdown-toggle nav__item-link">Our Clients</a>
                 
                 
               </li><!-- /.nav-item -->
               <li class="nav__item">
-                <a href="#" class="nav__item-link">Contacts</a>
+                <a href="#" class="nav__item-link">Contacts Us</a>
               </li><!-- /.nav-item -->
             </ul><!-- /.navbar-nav -->
           </div><!-- /.navbar-collapse -->
@@ -100,8 +105,11 @@
               <li class="d-none d-lg-block">
                 <div class="pv-hero-actions">
                     
-                    <a href="#" class="quote-button pv-hero-whatsapp" target="_blank" rel="noopener noreferrer">Get a Free Quote <span aria-hidden="true">↗</span></a>
-                  </div>
+                    <a href="#" class="quote-button pv-hero-whatsapp" target="_blank" rel="noopener noreferrer">Request a Quote <span aria-hidden="true">↗</span></a>
+                  <a href="#" class="quote-button pv-hero-whatsapp" target="_blank" rel="noopener noreferrer"><i class="fa fa-phone" style="font-size:20px; padding:0px 15px 0px 5px" aria-hidden="true"></i></a>
+                  
+				  
+				  </div>
               </li>
               
             </ul><!-- /.modules-wrapper -->
@@ -119,7 +127,7 @@
         data-speed="800" data-transition="fade" data-animate-out="fadeOut" data-animate-in="fadeIn">
         <div class="slide-item align-v-h bg-overlay pv-hero-slide">
           <div class="bg-img"><img src="assets/images/sliders/slide-1.webp" alt="Industrial energy and process engineering facility"></div>
-          <div class="container pv-hero-container">
+          <div class="container-fluid px-0 pv-hero-container">
             <div class="row">
               <div class="col-sm-12 col-md-10 col-lg-9 col-xl-8">
                 <div class="slide__content pv-hero-content">
@@ -138,9 +146,9 @@
 
             <aside class="pv-hero-form-wrap" aria-label="Request a quote">
               <form id="pvQuoteForm" class="pv-quote-form" action="mailto:info@pveng.com" method="post" enctype="text/plain">
-                <img class="pv-quote-logo" src="assets/images/logo/logo.webp" width="100px" alt="PV Eng Design and Engineering" />
-                <p class="pv-quote-intro">Fill out the form and we’ll get in touch with you shortly to discuss your needs. We’re ready to help you every step of the way.</p>
-                <label class="sr-only" for="pvQuoteName">Name</label>
+                <img class="pv-quote-logo" src="assets/images/logo/logo.webp" width="150px" alt="PV Eng Design and Engineering" />
+                <p class="pv-quote-intro">Fill out the form, and we’ll get in touch with you shortly to discuss your needs. We’re ready to help you every step of the way!</p>
+				<label class="sr-only" for="pvQuoteName">Name</label>
                 <input id="pvQuoteName" name="Name" type="text" placeholder="Name*" autocomplete="name" required />
                 <label class="sr-only" for="pvQuoteEmail">Email</label>
                 <input id="pvQuoteEmail" name="Email" type="email" placeholder="Email*" autocomplete="email" required />
@@ -172,7 +180,7 @@
          Clients 1
       ======================== -->
     <section id="clients" class="clients clients-1">
-      <div class="container">
+      <div class="container-fluid px-0">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
 		  <h6 class="text-center" style="color:#00AE00;font-weight:500;font-size: 20px;margin-bottom:30px;">Trusted by Leading Industries</h6>
@@ -204,24 +212,13 @@
 
 <!-- Pressure Vessel Engineering Section -->
 <section id="pvEngineering" class="pv-engineering-section pt-40 pb-40">
-  <div class="container">
+  <div class="container-fluid px-0">
 
-    <!-- Heading -->
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="heading heading-2 mb-20">
-		
-          
-
-          
-        </div>
-      </div>
-    </div>
 
     <!-- Support and Deliverables -->
-    <div class="row">
+    <div class="row mx-0">
 
-      <div class="col-sm-12 col-md-6 mb-20">
+      <div class="col-sm-12 col-md-6 mb-20 px-0">
        
 		   <h6 style="color:#00AE00;font-weight:500;font-size: 20px;margin-bottom:30px;">A Trusted Engineering Consultant</h6>
 		
@@ -234,10 +231,15 @@ We support equipment manufacturers, fabrication companies, EPC contractors, engi
 Our approach combines engineering principles, applicable design codes and fabrication-oriented detailing to help clients achieve accurate designs, efficient manufacturing and well-coordinated project execution.
 From individual equipment assignments to complete engineering packages, PV Eng is committed to delivering practical, reliable and professionally documented engineering solutions.
 </p>
+
+  <div class="pv-hero-actions">
+                    <a href="#footer" class="quote-button pv-hero-quote">Learn More About Us <span aria-hidden="true">↗</span></a>
+                    <a href="https://wa.me/918610158593?text=Hello%20PV%20Eng%2C%20I%27d%20like%20to%20discuss%20an%20engineering%20requirement." class="quote-button pv-hero-whatsapp" target="_blank" rel="noopener noreferrer">Get a Quote Today<span aria-hidden="true">↗</span></a>
+                  </div>
       </div>
 
-      <div class="col-sm-12 col-md-6 mb-20">
-       <img src="assets/images/pv-home-001.webp" />
+      <div class="col-sm-12 col-md-6 mb-20 text-center">
+       <img src="assets/images/pv-home-001.webp" width="100%"/>
       </div>
 
     </div>
