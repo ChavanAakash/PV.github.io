@@ -7,8 +7,7 @@
   <meta name="description" content="Industic - Factory and Manufacturing Html Template">
   <link href="assets/images/favicon/favicon.webp" rel="icon">
   <title>PV ENG | PRESSURE VESSEL ENGINEERING</title>
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Roboto:400,500,700%7cRubik:400,500,700&amp;display=swap">
+  
   <link rel="stylesheet" href="assets/css/libraries.css">
   <link rel="stylesheet" href="assets/css/style.css">
   
@@ -20,26 +19,7 @@
         Header
     =========================== -->
     <header id="header" class="header header-white header-full">
-      <div class="header__topbar d-none d-lg-block">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-9 col-lg-8">
-              <ul class="contact__list list-unstyled">
-                <li><i class="icon-phone"></i><span>Phone: +91 8610158593</span></li>
-                <li><i class="icon-envelope2"></i><span>Email: <a href="" class="__cf_email__"> info@pveng.com</a></span></li>
-               
-              </ul>
-            </div><!-- /.col-lg-8 -->
-            <div class="col-sm-12 col-md-3 col-lg-4">
-              <ul class="header__topbar-links list-unstyled">
-                <li><a href="#">Blogs</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Contacts</a></li>
-              </ul>
-            </div><!-- /.col-lg-4 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </div>
+      
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container">
           <a class="navbar-brand" href="index.html">
@@ -118,9 +98,10 @@
           <div class="navbar-modules">
             <ul class="list-unstyled d-flex align-items-center modules__btns-list">
               <li class="d-none d-lg-block">
-                <a href="#" class="btn btn__primary module__btn-request">
-                  <span>Request A Quote</span><i class="icon-arrow-right2"></i>
-                </a>
+                <div class="pv-hero-actions">
+                    
+                    <a href="#" class="quote-button pv-hero-whatsapp" target="_blank" rel="noopener noreferrer">Get a Free Quote <span aria-hidden="true">↗</span></a>
+                  </div>
               </li>
               
             </ul><!-- /.modules-wrapper -->
@@ -142,21 +123,129 @@
             <div class="row">
               <div class="col-sm-12 col-md-10 col-lg-9 col-xl-8">
                 <div class="slide__content pv-hero-content">
-                  <span class="pv-hero-eyebrow">PRESSURE VESSEL ENGINEERING</span>
+                  
                   <h1 class="slide__title pv-hero-title">Pressure Vessel Design <span>&amp; Detailed Engineering</span></h1>
                   <h2 class="pv-hero-subtitle">Built to Code. Ready to Fabricate.</h2>
+				  
                   <p class="pv-hero-description">Specialized design calculations and fabrication-ready engineering documentation for pressure vessels, heat exchangers, storage tanks and process equipment.</p>
                   <div class="pv-hero-actions">
-                    <a href="#footer" class="quote-button pv-hero-quote">Get a Free Quote <span aria-hidden="true">→</span></a>
-                    <a href="https://wa.me/918610158593?text=Hello%20PV%20Eng%2C%20I%27d%20like%20to%20discuss%20an%20engineering%20requirement." class="quote-button pv-hero-whatsapp" target="_blank" rel="noopener noreferrer">Chat on WhatsApp <span aria-hidden="true">↗</span></a>
+                    <a href="#footer" class="quote-button pv-hero-quote">Get a Quote <span aria-hidden="true">→</span></a>
+                    <a href="https://wa.me/918610158593?text=Hello%20PV%20Eng%2C%20I%27d%20like%20to%20discuss%20an%20engineering%20requirement." class="quote-button pv-hero-whatsapp" target="_blank" rel="noopener noreferrer">Call Us Now<span aria-hidden="true">↗</span></a>
                   </div>
                 </div><!-- /.slide-content -->
               </div><!-- /.col-xl-8 -->
             </div><!-- /.row -->
+
+            <aside class="pv-hero-form-wrap" aria-label="Request a quote">
+              <form id="pvQuoteForm" class="pv-quote-form" action="mailto:info@pveng.com" method="post" enctype="text/plain">
+                <img class="pv-quote-logo" src="assets/images/logo/logo.webp" width="100px" alt="PV Eng Design and Engineering" />
+                <p class="pv-quote-intro">Fill out the form and we’ll get in touch with you shortly to discuss your needs. We’re ready to help you every step of the way.</p>
+                <label class="sr-only" for="pvQuoteName">Name</label>
+                <input id="pvQuoteName" name="Name" type="text" placeholder="Name*" autocomplete="name" required />
+                <label class="sr-only" for="pvQuoteEmail">Email</label>
+                <input id="pvQuoteEmail" name="Email" type="email" placeholder="Email*" autocomplete="email" required />
+                <label class="sr-only" for="pvQuotePhone">Contact number</label>
+                <input id="pvQuotePhone" name="Contact Number" type="tel" placeholder="Contact No.*" autocomplete="tel" required />
+                <label class="sr-only" for="pvQuoteService">Service required</label>
+                <select id="pvQuoteService" name="Service Required" required>
+                  <option value="" selected disabled>Service Required*</option>
+                  <option>Pressure Vessel Design</option>
+                  <option>Design Verification</option>
+                  <option>Registration Compliance</option>
+                  <option>Heat Exchangers</option>
+                  <option>Storage Tanks</option>
+                  <option>Other Engineering Service</option>
+                </select>
+                <label class="sr-only" for="pvQuoteMessage">Message</label>
+                <textarea id="pvQuoteMessage" name="Message" rows="3" placeholder="Message"></textarea>
+                <button type="submit" class="pv-quote-submit">Submit Request <span aria-hidden="true">↗</span></button>
+                <p class="pv-quote-note">Your details will be used only to respond to your enquiry.</p>
+              </form>
+            </aside>
           </div><!-- /.container -->
         </div><!-- /.slide-item -->
       </div><!-- /.carousel -->
     </section><!-- /.slider -->
+
+
+ <!-- =====================
+         Clients 1
+      ======================== -->
+    <section id="clients" class="clients clients-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+		  <h6 class="text-center" style="color:#00AE00;font-weight:500;font-size: 20px;margin-bottom:30px;">Trusted by Leading Industries</h6>
+            <div class="carousel owl-carousel" data-slide="6" data-slide-md="4" data-slide-sm="2" data-autoplay="true"
+              data-nav="false" data-dots="false" data-space="20" data-loop="true" data-speed="700">
+              <div class="client">
+                <a href="#"><img src="assets/images/clients/9.png" alt="client"></a>
+              </div><!-- /.client -->
+              <div class="client">
+                <a href="#"><img src="assets/images/clients/10.png" alt="client"></a>
+              </div><!-- /.client -->
+              <div class="client">
+                <a href="#"><img src="assets/images/clients/11.png" alt="client"></a>
+              </div><!-- /.client -->
+              <div class="client">
+                <a href="#"><img src="assets/images/clients/12.png" alt="client"></a>
+              </div><!-- /.client -->
+              <div class="client">
+                <a href="#"><img src="assets/images/clients/13.png" alt="client"></a>
+              </div><!-- /.client -->
+              <div class="client">
+                <a href="#"><img src="assets/images/clients/11.png" alt="client"></a>
+              </div><!-- /.client -->
+            </div><!-- /.carousel -->
+          </div><!-- /.col-lg-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.clients 1 -->
+
+<!-- Pressure Vessel Engineering Section -->
+<section id="pvEngineering" class="pv-engineering-section pt-40 pb-40">
+  <div class="container">
+
+    <!-- Heading -->
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="heading heading-2 mb-20">
+		
+          
+
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Support and Deliverables -->
+    <div class="row">
+
+      <div class="col-sm-12 col-md-6 mb-20">
+       
+		   <h6 style="color:#00AE00;font-weight:500;font-size: 20px;margin-bottom:30px;">A Trusted Engineering Consultant</h6>
+		
+          <h2 class="heading__title pv-engineering-title">
+            A Trusted Engineering Consultant
+          </h2>
+
+          <p>Pressure Vessel Engineering specializes in design and detailed engineering services for pressure vessels, heat exchangers, storage tanks and other industrial static equipment.
+We support equipment manufacturers, fabrication companies, EPC contractors, engineering consultants and plant owners with mechanical design calculations, technical drawings and engineering documentation tailored to project requirements.
+Our approach combines engineering principles, applicable design codes and fabrication-oriented detailing to help clients achieve accurate designs, efficient manufacturing and well-coordinated project execution.
+From individual equipment assignments to complete engineering packages, PV Eng is committed to delivering practical, reliable and professionally documented engineering solutions.
+</p>
+      </div>
+
+      <div class="col-sm-12 col-md-6 mb-20">
+       <img src="assets/images/pv-home-001.webp" />
+      </div>
+
+    </div>
+
+  
+
+  </div>
+</section>
 
 
 <!-- Pressure Vessel Engineering Section -->
@@ -415,38 +504,7 @@
 </section>
 
 
-    <!-- =====================
-         Clients 1
-      ======================== -->
-    <section id="clients" class="clients clients-1">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12">
-            <div class="carousel owl-carousel" data-slide="6" data-slide-md="4" data-slide-sm="2" data-autoplay="true"
-              data-nav="false" data-dots="false" data-space="20" data-loop="true" data-speed="700">
-              <div class="client">
-                <a href="#"><img src="assets/images/clients/9.png" alt="client"></a>
-              </div><!-- /.client -->
-              <div class="client">
-                <a href="#"><img src="assets/images/clients/10.png" alt="client"></a>
-              </div><!-- /.client -->
-              <div class="client">
-                <a href="#"><img src="assets/images/clients/11.png" alt="client"></a>
-              </div><!-- /.client -->
-              <div class="client">
-                <a href="#"><img src="assets/images/clients/12.png" alt="client"></a>
-              </div><!-- /.client -->
-              <div class="client">
-                <a href="#"><img src="assets/images/clients/13.png" alt="client"></a>
-              </div><!-- /.client -->
-              <div class="client">
-                <a href="#"><img src="assets/images/clients/11.png" alt="client"></a>
-              </div><!-- /.client -->
-            </div><!-- /.carousel -->
-          </div><!-- /.col-lg-12 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /.clients 1 -->
+   
 
     <!-- ========================
           Footer
@@ -546,6 +604,25 @@
   <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.3.1.min.js"></script>
   <script src="assets/js/plugins.js"></script>
   <script src="assets/js/main.js"></script>
+  <script>
+    (function () {
+      const quoteForm = document.getElementById('pvQuoteForm');
+      if (!quoteForm) return;
+
+      quoteForm.addEventListener('submit', function (event) {
+        event.preventDefault();
+        if (!quoteForm.reportValidity()) return;
+
+        const formData = new FormData(quoteForm);
+        const message = Array.from(formData.entries())
+          .map(([label, value]) => label + ': ' + value)
+          .join('\n');
+        const subject = 'PV Eng Website Quote Enquiry';
+        window.location.href = 'mailto:info@pveng.com?subject=' + encodeURIComponent(subject) +
+          '&body=' + encodeURIComponent(message);
+      });
+    }());
+  </script>
 <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"8e4efc0026d0404083dfbf37b48d3c38","r":1,"spa":2}' crossorigin="anonymous"></script>
 </body>
 
