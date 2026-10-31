@@ -496,42 +496,58 @@ From individual equipment assignments to complete engineering packages, PV Eng i
 
     <div class="pv-industries-grid">
       <article class="pv-industry-card">
-        <div class="pv-industry-icon"><i class="fa fa-industry" aria-hidden="true"></i></div>
+        <div class="pv-industry-image-wrap">
+          <img class="pv-industry-image" src="assets/images/industries/oil-gas.jpg" alt="Oil & Gas industrial facilities" loading="lazy">
+        </div>
         <h3>Oil &amp; Gas</h3>
         <p>Separators, KO drums, scrubbers</p>
       </article>
       <article class="pv-industry-card">
-        <div class="pv-industry-icon"><i class="fa fa-fire" aria-hidden="true"></i></div>
+        <div class="pv-industry-image-wrap">
+          <img class="pv-industry-image" src="assets/images/industries/refining-petrochemical.jpg" alt="Refining & Petrochemical industrial facilities" loading="lazy">
+        </div>
         <h3>Refining &amp; Petrochemical</h3>
         <p>Columns, reactors, heat exchangers</p>
       </article>
       <article class="pv-industry-card">
-        <div class="pv-industry-icon"><i class="fa fa-flask" aria-hidden="true"></i></div>
+        <div class="pv-industry-image-wrap">
+          <img class="pv-industry-image" src="assets/images/industries/chemical-processing.jpg" alt="Chemical Processing industrial facilities" loading="lazy">
+        </div>
         <h3>Chemical Processing</h3>
         <p>Reactors, agitated vessels, tanks</p>
       </article>
       <article class="pv-industry-card">
-        <div class="pv-industry-icon"><i class="fa fa-bolt" aria-hidden="true"></i></div>
+        <div class="pv-industry-image-wrap">
+          <img class="pv-industry-image" src="assets/images/industries/power-generation.jpg" alt="Power Generation industrial facilities" loading="lazy">
+        </div>
         <h3>Power Generation</h3>
         <p>Heat exchangers, receivers, tanks</p>
       </article>
       <article class="pv-industry-card">
-        <div class="pv-industry-icon"><i class="fa fa-tint" aria-hidden="true"></i></div>
+        <div class="pv-industry-image-wrap">
+          <img class="pv-industry-image" src="assets/images/industries/water-treatment.jpg" alt="Water Treatment industrial facilities" loading="lazy">
+        </div>
         <h3>Water Treatment</h3>
         <p>Filter vessels, chlorination units</p>
       </article>
       <article class="pv-industry-card">
-        <div class="pv-industry-icon"><i class="fa fa-leaf" aria-hidden="true"></i></div>
+        <div class="pv-industry-image-wrap">
+          <img class="pv-industry-image" src="assets/images/industries/fertilizer-plants.jpg" alt="Fertilizer Plants industrial facilities" loading="lazy">
+        </div>
         <h3>Fertilizer Plants</h3>
         <p>Process vessels, columns, tanks</p>
       </article>
       <article class="pv-industry-card">
-        <div class="pv-industry-icon"><i class="fa fa-cutlery" aria-hidden="true"></i></div>
+        <div class="pv-industry-image-wrap">
+          <img class="pv-industry-image" src="assets/images/industries/food-beverage.jpg" alt="Food & Beverage industrial facilities" loading="lazy">
+        </div>
         <h3>Food &amp; Beverage</h3>
         <p>Stainless vessels, tanks, exchangers</p>
       </article>
       <article class="pv-industry-card">
-        <div class="pv-industry-icon"><i class="fa fa-medkit" aria-hidden="true"></i></div>
+        <div class="pv-industry-image-wrap">
+          <img class="pv-industry-image" src="assets/images/industries/pharmaceuticals.jpg" alt="Pharmaceuticals industrial facilities" loading="lazy">
+        </div>
         <h3>Pharmaceuticals</h3>
         <p>Clean process vessels, reactors</p>
       </article>
@@ -669,6 +685,59 @@ From individual equipment assignments to complete engineering packages, PV Eng i
 
        
       </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- =========================
+     Contact / Enquiry Section
+========================= -->
+<section id="pvContactSection" class="pv-contact-section">
+  <div class="pv-contact-inner">
+    <div class="pv-contact-copy">
+      <span class="pv-contact-eyebrow">Get in Touch</span>
+      <h2>Contact our engineering team today to discuss your pressure vessel requirements.</h2>
+    </div>
+
+    <div class="pv-contact-form-wrap">
+      <form id="pvContactEnquiryForm" class="pv-contact-form"
+            action="mailto:info@pveng.com" method="post" enctype="text/plain">
+        <div class="pv-contact-fields">
+          <label class="sr-only" for="pvContactName">Name</label>
+          <input id="pvContactName" name="Name" type="text" placeholder="Name*" autocomplete="name" required>
+
+          <label class="sr-only" for="pvContactCompany">Company</label>
+          <input id="pvContactCompany" name="Company" type="text" placeholder="Company*" autocomplete="organization" required>
+
+          <label class="sr-only" for="pvContactEmail">Email</label>
+          <input id="pvContactEmail" name="Email" type="email" placeholder="Email*" autocomplete="email" required>
+
+          <label class="sr-only" for="pvContactPhone">Phone</label>
+          <input id="pvContactPhone" name="Phone" type="tel" placeholder="Phone*" autocomplete="tel" required>
+
+          <label class="sr-only" for="pvContactService">Service Required</label>
+          <select id="pvContactService" name="Service Required" required>
+            <option value="" selected disabled>Service Required*</option>
+            <option>Pressure Vessel Design</option>
+            <option>Pressure Vessel Design Verification</option>
+            <option>Heat Exchanger Design</option>
+            <option>Storage Tank Design</option>
+            <option>Mechanical Engineering Services</option>
+            <option>Finite Element Analysis and Drafting</option>
+            <option>Inspection Documentation Support</option>
+            <option>Other Engineering Service</option>
+          </select>
+
+          <label class="sr-only" for="pvContactDetails">Project Details</label>
+          <textarea id="pvContactDetails" name="Project Details" rows="2" placeholder="Project Details"></textarea>
+        </div>
+
+        <div class="pv-contact-form-bottom">
+          <p class="pv-contact-note"><i class="fa fa-shield" aria-hidden="true"></i> Your details will only be used to respond to your enquiry.</p>
+          <button type="submit" class="pv-contact-submit">Submit Enquiry <span aria-hidden="true">↗</span></button>
+        </div>
+      </form>
     </div>
   </div>
 </section>

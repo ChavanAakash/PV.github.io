@@ -8615,7 +8615,7 @@ body *:not(.fa):not([class^="icon-"]):not([class*=" icon-"]) {
 #engineeringCapabilities .pv-service-main h3 {
   margin: 0;
   color: #111;
-  font-size: 22px;
+  font-size: 26px;
   line-height: 1.3;
   font-weight: 700;
   letter-spacing: -.25px;
@@ -8628,7 +8628,7 @@ body *:not(.fa):not([class^="icon-"]):not([class*=" icon-"]) {
   margin: 0;
   padding-right: 28px;
   color: #242424;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.45;
   font-weight: 400;
   transition: color .3s ease;
@@ -9070,3 +9070,344 @@ body *:not(.fa):not([class^="icon-"]):not([class*=" icon-"]) {
   }
 }
 
+
+
+
+
+/* =========================================================
+   PV Eng Contact CTA — CSS-only background, no image asset
+========================================================= */
+#pvContactSection.pv-contact-section {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  margin: 34px 10px 0;
+  padding: 66px clamp(26px, 6vw, 82px);
+  border-radius: 30px 0 30px 0;
+  /* Real industrial photograph with a strong green brand overlay.
+     The overlay keeps the image green-tinted regardless of its original colours. */
+  background-color: #009f18;
+  background-image:
+    linear-gradient(110deg, rgba(0, 125, 22, .88) 0%, rgba(0, 164, 20, .84) 52%, rgba(0, 185, 0, .86) 100%),
+    url("../images/contact/contact-bg.webp");
+  background-position: center, center 52%;
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat;
+  color: #fff;
+}
+#pvContactSection:before,
+#pvContactSection:after {
+  content: none;
+}
+#pvContactSection .pv-contact-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.02fr);
+  align-items: center;
+  gap: clamp(30px, 5vw, 74px);
+  max-width: 1500px;
+  margin: 0 auto;
+}
+#pvContactSection .pv-contact-copy {
+  max-width: 650px;
+}
+#pvContactSection .pv-contact-eyebrow {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 21px;
+  line-height: 1.3;
+  font-weight: 700;
+}
+#pvContactSection .pv-contact-eyebrow:after {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 3px;
+  margin-top: 13px;
+  border-radius: 5px;
+  background: rgba(255,255,255,.95);
+}
+#pvContactSection .pv-contact-copy h2 {
+  max-width: 680px;
+  margin: 0;
+  color: #fff;
+  font-size: clamp(32px, 3.35vw, 49px);
+  line-height: 1.22;
+  font-weight: 750;
+  letter-spacing: -1.2px;
+}
+#pvContactSection .pv-contact-form {
+  width: 100%;
+  margin: 0;
+}
+#pvContactSection .pv-contact-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 15px 18px;
+}
+#pvContactSection .pv-contact-fields input,
+#pvContactSection .pv-contact-fields select,
+#pvContactSection .pv-contact-fields textarea {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  min-height: 60px;
+  margin: 0;
+  padding: 15px 24px;
+  border: 1px solid rgba(255,255,255,.42);
+  border-radius: 999px;
+  outline: none;
+  background: #c9f6cc;
+  color: #16351b;
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 1.4;
+  box-shadow: none;
+  transition: background .2s ease, border-color .2s ease, box-shadow .2s ease;
+}
+#pvContactSection .pv-contact-fields input::placeholder,
+#pvContactSection .pv-contact-fields textarea::placeholder {
+  color: #16351b;
+  opacity: 1;
+}
+#pvContactSection .pv-contact-fields input:focus,
+#pvContactSection .pv-contact-fields select:focus,
+#pvContactSection .pv-contact-fields textarea:focus {
+  border-color: #fff;
+  background: #e1ffe3;
+  box-shadow: 0 0 0 3px rgba(255,255,255,.2);
+}
+#pvContactSection .pv-contact-fields select {
+  grid-column: 1 / -1;
+  appearance: none;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%23008f18' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 22px center;
+  padding-right: 52px;
+}
+#pvContactSection .pv-contact-fields select:invalid {
+  color: #16351b;
+}
+#pvContactSection .pv-contact-fields textarea {
+  grid-column: 1 / -1;
+  min-height: 82px;
+  border-radius: 25px;
+  resize: vertical;
+}
+#pvContactSection .pv-contact-form-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 24px;
+}
+#pvContactSection .pv-contact-note {
+  margin: 0;
+  color: rgba(255,255,255,.88);
+  font-size: 12px;
+  line-height: 1.5;
+}
+#pvContactSection .pv-contact-note i {
+  margin-right: 7px;
+}
+#pvContactSection .pv-contact-submit {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+  min-height: 58px;
+  padding: 7px 9px 7px 24px;
+  border: 0;
+  border-radius: 999px;
+  background: #fff;
+  color: #111;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+#pvContactSection .pv-contact-submit span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #00a914;
+  color: #fff;
+  font-size: 24px;
+  line-height: 1;
+}
+#pvContactSection .pv-contact-submit:hover,
+#pvContactSection .pv-contact-submit:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 9px 22px rgba(0,0,0,.18);
+}
+@media (max-width: 991px) {
+  #pvContactSection.pv-contact-section {
+    padding: 48px 30px;
+  }
+  #pvContactSection .pv-contact-inner {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  #pvContactSection .pv-contact-copy h2 {
+    max-width: 760px;
+    font-size: clamp(30px, 5vw, 42px);
+  }
+}
+@media (max-width: 575px) {
+  #pvContactSection.pv-contact-section {
+    margin: 24px 8px 0;
+    padding: 34px 18px;
+    border-radius: 22px 0 22px 0;
+  }
+  #pvContactSection .pv-contact-eyebrow {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  #pvContactSection .pv-contact-copy h2 {
+    font-size: 30px;
+    letter-spacing: -.6px;
+  }
+  #pvContactSection .pv-contact-fields {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  #pvContactSection .pv-contact-fields select,
+  #pvContactSection .pv-contact-fields textarea {
+    grid-column: auto;
+  }
+  #pvContactSection .pv-contact-fields input,
+  #pvContactSection .pv-contact-fields select {
+    min-height: 54px;
+    padding: 13px 18px;
+    font-size: 14px;
+  }
+  #pvContactSection .pv-contact-fields textarea {
+    min-height: 82px;
+    padding: 16px 18px;
+  }
+  #pvContactSection .pv-contact-form-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 17px;
+  }
+  #pvContactSection .pv-contact-submit {
+    min-height: 54px;
+  }
+}
+
+
+
+/* =========================================================
+   Industries We Serve — real photographic image cards
+========================================================= */
+#industriesWeServe .pv-industries-grid {
+  align-items: stretch;
+  gap: 20px;
+}
+#industriesWeServe .pv-industry-card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  
+  padding: 0 0 20px;
+  overflow: hidden;
+  border: 1px solid #d7ecd8;
+  border-top: 4px solid #00a900;
+  border-radius: 17px;
+  background: #fff;
+  box-shadow: 0 8px 22px rgba(0, 115, 20, .07);
+  text-align: center;
+  transition: transform .28s ease, box-shadow .28s ease, border-color .28s ease;
+}
+#industriesWeServe .pv-industry-card:nth-child(4n+2),
+#industriesWeServe .pv-industry-card:nth-child(4n+4) {
+  border-top-color: #009b83;
+}
+#industriesWeServe .pv-industry-card:hover {
+  transform: translateY(-5px);
+  border-color: #9bdca2;
+  background: #fff;
+  box-shadow: 0 15px 30px rgba(0, 145, 25, .14);
+}
+#industriesWeServe .pv-industry-image-wrap {
+  position: relative;
+  width: 100%;
+  height: 174px;
+  flex: 0 0 174px;
+  overflow: hidden;
+  background: #e9f5e9;
+}
+#industriesWeServe .pv-industry-image-wrap:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 42%;
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,.98));
+}
+#industriesWeServe .pv-industry-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  
+}
+#industriesWeServe .pv-industry-card:hover .pv-industry-image {
+  transform: scale(1.055);
+}
+#industriesWeServe .pv-industry-card h3 {
+  position: relative;
+  z-index: 1;
+  margin: -3px 12px 7px;
+  color: #18351d;
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 700;
+}
+#industriesWeServe .pv-industry-card p {
+  margin: 0 12px;
+  color: #536454;
+  font-size: 14px;
+  line-height: 1.45;
+}
+@media (max-width: 991px) {
+  #industriesWeServe .pv-industry-card {
+    min-height: 275px;
+  }
+  #industriesWeServe .pv-industry-image-wrap {
+    height: 165px;
+    flex-basis: 165px;
+  }
+}
+@media (max-width: 575px) {
+  #industriesWeServe .pv-industries-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 13px;
+  }
+  #industriesWeServe .pv-industry-card {
+    min-height: 235px;
+    padding-bottom: 14px;
+  }
+  #industriesWeServe .pv-industry-image-wrap {
+    height: 130px;
+    flex-basis: 130px;
+  }
+  #industriesWeServe .pv-industry-card h3 {
+    margin: 0 8px 6px;
+    font-size: 14px;
+  }
+  #industriesWeServe .pv-industry-card p {
+    margin: 0 8px;
+    font-size: 11px;
+  }
+}
